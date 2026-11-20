@@ -58,6 +58,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         title: 'Chapter 2: Units, Dimensional Analysis, Problem Solving, and Estimation',
         relevanceVi: 'Hỗ trợ mục 1.2: đơn vị SI, phân tích thứ nguyên và ước lượng bậc độ lớn.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/resources/mit8_01scs22_chapter2/',
+        lessonIds: ['phy1159-t1-2'],
       },
       {
         id: 'mit-801sc-l1',
@@ -69,6 +70,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.3–1.4: hệ quy chiếu, véc tơ vị trí, độ dịch chuyển và vận tốc 1D.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-1-kinematics/1-1-coordinate-systems-and-unit-vectors-in-1d-position-vector-in-1d/',
         youtubeId: 'ErlP_SBcA1s',
+        lessonIds: ['phy1159-t2-1'],
       },
       {
         id: 'mit-801sc-l2',
@@ -80,6 +82,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.4: gia tốc tức thời, tích phân gia tốc để tìm vận tốc và vị trí.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-1-kinematics/2-1-introduction-to-acceleration/',
         youtubeId: 'xZn4l1TSvPQ',
+        lessonIds: ['phy1159-t2-1'],
       },
       {
         id: 'mit-801sc-l3',
@@ -91,6 +94,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.3–1.5: động học 2D và chuyển động ném xiên.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-1-kinematics/3-1-coordinate-system-and-position-vector-in-2d/',
         youtubeId: 'Q3v_2znHCvg',
+        lessonIds: ['phy1159-t2-2'],
       },
       {
         id: 'mit-801sc-l8',
@@ -102,6 +106,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.5: hệ tọa độ cực mô tả chuyển động cong và chuyển động tròn.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-3-circular-motion/8-1-polar-coordinates/',
         youtubeId: 'uo86ir31pn0',
+        lessonIds: ['phy1159-t2-2'],
       },
       {
         id: 'mit-801sc-l9',
@@ -113,6 +118,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.5: vận tốc góc, chu kỳ, tần số trong chuyển động tròn đều.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-3-circular-motion/9-1-uniform-circular-motion/',
         youtubeId: 'emrHcqEvXpw',
+        lessonIds: ['phy1159-t2-2'],
       },
       {
         id: 'mit-801sc-l10',
@@ -124,6 +130,19 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 1.4–1.5: gia tốc tiếp tuyến và gia tốc pháp tuyến (hướng tâm).',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-3-circular-motion/10-1-circular-motion-2013-acceleration/',
         youtubeId: '_0PrwAbgoMA',
+        lessonIds: ['phy1159-t2-2'],
+      },
+      {
+        id: 'mit-801sc-l18-relvel',
+        courseCode: '8.01SC',
+        courseTitle: 'Classical Mechanics (Fall 2016)',
+        category: 'supplement',
+        resourceType: 'video-lesson',
+        title: 'Lesson 18: 18.1 Relative Velocity',
+        relevanceVi: 'Bổ trợ phép cộng vận tốc và chuyển động tương đối giữa các hệ quy chiếu.',
+        url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-6-continuous-mass-transfer/18-1-relative-velocity/',
+        youtubeId: 'sN-m5WkbMyI',
+        lessonIds: ['phy1159-t2-3'],
       },
     ],
     comparisonNoteVi:
@@ -176,6 +195,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.1: định luật I, II Newton và phân tích lực.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-2-newtons-laws/4-1-newtons-first-and-second-laws/',
         youtubeId: '89SjJv30kGU',
+        lessonIds: ['phy1159-t3-1'],
       },
       {
         id: 'mit-801sc-w2',
@@ -187,6 +207,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.1: lực tiếp xúc, lực ma sát, lực căng dây và bài toán hệ vật.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-2-newtons-laws/',
         youtubeId: 'IV9NhNIrrDw',
+        lessonIds: ['phy1159-t3-1'],
       },
       {
         id: 'mit-801sc-l11',
@@ -198,6 +219,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.1: áp dụng định luật II Newton cho chuyển động tròn.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-3-circular-motion/11-1-newtons-2nd-law-and-circular-motion/',
         youtubeId: 'tniGFmPQc0E',
+        lessonIds: ['phy1159-t3-2'],
       },
       {
         id: 'mit-801sc-l15',
@@ -209,6 +231,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.2: động lượng và xung lượng của lực.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-5-momentum-and-impulse/15-1-momentum-and-impulse/',
         youtubeId: '1GvCIlHihEA',
+        lessonIds: ['phy1159-t3-3'],
       },
       {
         id: 'mit-801sc-l16',
@@ -220,6 +243,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.2: định luật bảo toàn động lượng cho hệ chất điểm.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-5-momentum-and-impulse/16-1-conservation-of-momentum/',
         youtubeId: 'Vg8t8_IOHDg',
+        lessonIds: ['phy1159-t3-3'],
       },
       {
         id: 'mit-801sc-l18-19',
@@ -231,6 +255,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 2.3 (Tự học): phương trình Tsiolkovsky cho chuyển động tên lửa.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-6-continuous-mass-transfer/',
         youtubeId: 'YGR5_Hf9dDg',
+        lessonIds: ['phy1159-t3-3'],
       },
       {
         id: 'mit-801sc-ch31-pdf',
@@ -241,6 +266,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         title: 'Chapter 31: Non-Inertial Linear and Rotating Reference Frames',
         relevanceVi: 'Hỗ trợ mục 2.4: hệ quy chiếu phi quán tính, lực quán tính ly tâm và lực Coriolis.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/resources/mit8_01scs22_chapter31/',
+        lessonIds: ['phy1159-t3-4'],
       },
     ],
     comparisonNoteVi:
@@ -285,6 +311,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 3.1–3.2: tích phân công, công suất, định lý động năng và lực thế/không thế.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-7-kinetic-energy-and-work/',
         youtubeId: 'efpiHD_2O8E',
+        lessonIds: ['phy1159-t4-1'],
       },
       {
         id: 'mit-801sc-w8',
@@ -296,6 +323,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 3.3–3.4: thế năng, quan hệ lực–thế năng và bảo toàn cơ năng.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-8-potential-energy-and-energy-conservation/',
         youtubeId: 'nCDOa63Jd6M',
+        lessonIds: ['phy1159-t4-2'],
       },
       {
         id: 'mit-801sc-w9',
@@ -307,6 +335,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 3.5: va chạm đàn hồi và không đàn hồi trong hệ quy chiếu phòng thí nghiệm và khối tâm.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-9-collision-theory/',
         youtubeId: 'YLDRzy8Dcgo',
+        lessonIds: ['phy1159-t4-3'],
       },
     ],
     comparisonNoteVi:
@@ -352,6 +381,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 4.1: tính khối tâm hệ chất điểm, vật liên tục và chuyển động khối tâm.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-5-momentum-and-impulse/17-1-definition-of-the-center-of-mass/',
         youtubeId: 'ol1COj0LACs',
+        lessonIds: ['phy1159-t5-1'],
       },
       {
         id: 'mit-801sc-w10',
@@ -363,6 +393,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 4.2–4.4, 4.6: vật rắn, mômen lực, mômen quán tính và động năng quay.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-10-rotational-motion/',
         youtubeId: 'u_LAfG5uIpY',
+        lessonIds: ['phy1159-t5-2'],
       },
       {
         id: 'mit-801sc-w11',
@@ -374,6 +405,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 4.5: mômen động lượng và định luật bảo toàn mômen động lượng.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-11-angular-momentum/',
         youtubeId: 'Idx3VgOpUDk',
+        lessonIds: ['phy1159-t5-3'],
       },
       {
         id: 'mit-801sc-w12',
@@ -385,6 +417,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 4.6: chuyển động lăn không trượt kết hợp tịnh tiến và quay.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-12-rotations-and-translation-rolling/',
         youtubeId: 'oILq3xz_XtU',
+        lessonIds: ['phy1159-t5-3'],
       },
     ],
     comparisonNoteVi:
@@ -423,6 +456,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi:
           'Hỗ trợ mục 5.1–5.4: lực hấp dẫn, thế năng hiệu dụng, phương trình quỹ đạo conic, 3 định luật Kepler và tốc độ thoát.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/resources/mit8_01scs22_chapter25new/',
+        lessonIds: ['phy1159-t6-1', 'phy1159-t6-2', 'phy1159-t6-3'],
       },
     ],
     comparisonNoteVi:
@@ -480,6 +514,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 6.1–6.2: trạng thái nhiệt động, cân bằng nhiệt và nguyên lý số không.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-1-state-of-a-system-0th-law-equation-of-state/',
         youtubeId: 'kLqduWF6GXE',
+        lessonIds: ['phy1159-t8-1', 'phy1159-t8-2'],
       },
       {
         id: 'mit-560-lec2',
@@ -491,6 +526,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 6.3, 6.5: công, nhiệt lượng và nguyên lý thứ nhất nhiệt động lực học.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-2-work-heat-first-law/',
         youtubeId: 'TDqx8Zv1rRo',
+        lessonIds: ['phy1159-t9-1', 'phy1159-t9-2'],
       },
       {
         id: 'mit-560-lec3',
@@ -502,6 +538,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 6.3, 6.5: nội năng và công giãn nở của chất khí.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-3-internal-energy-expansion-work/',
         youtubeId: 'RrVq7Yduz2g',
+        lessonIds: ['phy1159-t9-1', 'phy1159-t9-2'],
       },
       {
         id: 'mit-560-lec7',
@@ -513,6 +550,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Bổ trợ mục 6.4: phép đo nhiệt lượng và nhiệt dung.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-7-calorimetry/',
         youtubeId: '6uLKZSoHnrc',
+        lessonIds: ['phy1159-t9-3'],
       },
       {
         id: 'mit-8044-lec5-6',
@@ -524,6 +562,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi:
           'Đọc thêm (nâng cao, PDF notes & slides): biến trạng thái, vi phân toàn phần và nguyên lý I.',
         url: 'https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/pages/readings-notes-slides/',
+        lessonIds: ['phy1159-t8-1', 'phy1159-t9-2'],
       },
     ],
     comparisonNoteVi:
@@ -576,6 +615,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi:
           'Hỗ trợ mục 7.1–7.4, 7.7: khí lý tưởng, áp suất, nội năng, bậc tự do, phân bố đều năng lượng và khí quyển đẳng nhiệt theo độ cao.',
         url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/resources/mit8_01scs22_chapter29/',
+        lessonIds: ['phy1159-t10-1', 'phy1159-t10-2', 'phy1159-t10-3'],
       },
       {
         id: 'mit-560-lec5',
@@ -587,6 +627,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 7.5: quá trình đoạn nhiệt thuận nghịch, phương trình Poisson và công đoạn nhiệt.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-5-adiabatic-changes/',
         youtubeId: 'rWLeg-W4EF0',
+        lessonIds: ['phy1159-t10-3'],
       },
     ],
     comparisonNoteVi:
@@ -663,6 +704,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 9.2–9.3: phát biểu nguyên lý II, động cơ nhiệt và chu trình Carnot.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-8-second-law/',
         youtubeId: 'e124JF_DHCQ',
+        lessonIds: ['phy1159-t11-1', 'phy1159-t11-2'],
       },
       {
         id: 'mit-560-lec9',
@@ -674,6 +716,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 9.4: định nghĩa hàm trạng thái Entropy và bất đẳng thức Clausius.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-9-entropy-and-the-clausius-inequality/',
         youtubeId: 'DqEmrt_xQTg',
+        lessonIds: ['phy1159-t11-3'],
       },
       {
         id: 'mit-560-lec10',
@@ -685,6 +728,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi: 'Hỗ trợ mục 9.1, 9.4: quá trình bất thuận nghịch và nguyên lý tăng entropy.',
         url: 'https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/lecture-10-entropy-and-irreversibility/',
         youtubeId: 'QrzHB9_kHPE',
+        lessonIds: ['phy1159-t11-3'],
       },
       {
         id: 'mit-8044-lec8-9',
@@ -696,6 +740,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         relevanceVi:
           'Đọc thêm (nâng cao, PDF notes & slides): tiếp cận thống kê cho entropy và nguyên lý II.',
         url: 'https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/pages/readings-notes-slides/',
+        lessonIds: ['phy1159-t11-1', 'phy1159-t11-3'],
       },
       {
         id: 'mit-8044-lec11',
@@ -706,6 +751,7 @@ export const PHY1159_SYLLABUS_CHAPTERS: readonly Phy1159SyllabusChapter[] = [
         title: 'Lecture 11: Heat Engines and Carnot Cycles',
         relevanceVi: 'Đọc thêm (nâng cao, PDF slides): phân tích động cơ nhiệt và chu trình Carnot.',
         url: 'https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/pages/readings-notes-slides/',
+        lessonIds: ['phy1159-t11-2'],
       },
     ],
     comparisonNoteVi:

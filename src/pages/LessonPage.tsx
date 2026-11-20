@@ -10,10 +10,12 @@ import { progressStore } from '../infrastructure/progress/store';
 import { useLearningProgress } from '../app/useLearningProgress';
 import { useWorkspacePreferences } from '../app/useWorkspacePreferences';
 import { LessonWorkspaceShell } from '../components/learning/LessonWorkspaceShell';
-import { MitVideoCard } from '../components/learning/MitVideoCard';
+import { MitVideoCard, type MitSupplementItem } from '../components/learning/MitVideoCard';
 import { ResourceList } from '../components/learning/ResourceList';
-import { getMitVideosForLesson } from '../core/physics/syllabus-ocw';
+import { getMitSupplementForLesson } from '../core/physics/syllabus-ocw';
+import { getChe1080MitSupplementForLesson } from '../core/chemistry/mit-mapping';
 import { PHY1159_SYLLABUS_CHAPTERS } from '../content/courses/phy1159/syllabus-ocw';
+import { CHE1080_TOPICS } from '../content/mit/che1080-topics';
 import { getDiagramLabel } from '../modules/diagrams/registry';
 import { Badge } from '../components/ui/Badge';
 import { Breadcrumbs } from '../components/ui/Breadcrumbs';
@@ -156,10 +158,57 @@ function LessonReader({ course, lesson }: { readonly course: Course; readonly le
     () => learningContent.resources.filter(r => lesson.resourceIds.includes(r.id)),
     [lesson.resourceIds],
   );
-  const mitVideos = useMemo(
-    () => getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, lesson.id),
+  const phySupplement = useMemo(
+    () => getMitSupplementForLesson(PHY1159_SYLLABUS_CHAPTERS, lesson.id),
     [lesson.id],
   );
+  const [chemSupplement, setChemSupplement] = useState<{
+    readonly supplement: readonly MitSupplementItem[];
+    readonly furtherReading: readonly MitSupplementItem[];
+    readonly comparisonNoteVi?: string;
+  }>({ supplement: [], furtherReading: [] });
+
+  useEffect(() => {
+    let active = true;
+    const hasChemMit = CHE1080_TOPICS.some(t => t.lessonIds.includes(lesson.id));
+    if (!hasChemMit) {
+      setChemSupplement({ supplement: [], furtherReading: [] });
+      return;
+    }
+    import('../content/mit/che1080-resources')
+      .then(({ MIT_CHE1080_RESOURCES }) => {
+        if (!active) return;
+        setChemSupplement(
+          getChe1080MitSupplementForLesson(CHE1080_TOPICS, MIT_CHE1080_RESOURCES, lesson.id),
+        );
+      })
+      .catch(() => {
+        if (active) setChemSupplement({ supplement: [], furtherReading: [] });
+      });
+    return () => {
+      active = false;
+    };
+  }, [lesson.id]);
+
+  const mitSupplement = useMemo(() => {
+    const supplement: readonly MitSupplementItem[] = [
+      ...phySupplement.supplement,
+      ...chemSupplement.supplement,
+    ];
+    const furtherReading: readonly MitSupplementItem[] = [
+      ...phySupplement.furtherReading,
+      ...chemSupplement.furtherReading,
+    ];
+    const comparisonNoteVi = phySupplement.comparisonNoteVi ?? chemSupplement.comparisonNoteVi;
+    return {
+      supplement,
+      furtherReading,
+      comparisonNoteVi,
+      selfStudyChapter: phySupplement.selfStudyChapter,
+    };
+  }, [phySupplement, chemSupplement]);
+  const hasMitSupplement =
+    mitSupplement.supplement.length > 0 || mitSupplement.furtherReading.length > 0;
   const prerequisites = useMemo(
     () =>
       (topic?.prerequisiteIds ?? [])
@@ -351,28 +400,54 @@ function LessonReader({ course, lesson }: { readonly course: Course; readonly le
               </section>
             ) : null}
 
-            {mitVideos.length > 0 ? (
+            {hasMitSupplement ? (
               <section
-                aria-labelledby="mit-videos-heading"
-                className="mt-10 space-y-4 border-t border-border pt-8"
+                aria-labelledby="mit-supplement-heading"
+                className="mt-10 space-y-4 rounded-[var(--radius-xl)] border border-border bg-surface-subtle/40 p-4 sm:p-5"
               >
                 <div className="space-y-1">
-                  <h2
-                    id="mit-videos-heading"
-                    className="!my-0 !border-0 !pb-0 text-lg font-semibold text-ink"
-                  >
-                    Video MIT OpenCourseWare bổ trợ
-                  </h2>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h2
+                      id="mit-supplement-heading"
+                      className="!my-0 !border-0 !pb-0 text-base font-semibold text-ink"
+                    >
+                      Bổ trợ từ MIT OpenCourseWare
+                    </h2>
+                    {mitSupplement.selfStudyChapter ? <Badge tone="warning">Chương tự học</Badge> : null}
+                  </div>
                   <p className="!my-0 text-xs text-ink-secondary">
-                    Nguồn tài nguyên bên ngoài bằng tiếng Anh. Trình phát chỉ tải khi bạn bấm “Xem
-                    video tại đây”.
+                    Học liệu bổ trợ nguồn ngoài bằng tiếng Anh, đi kèm bài giảng HUS ở trên. Video
+                    chỉ tải trình phát khi bạn bấm “Xem video tại đây”.
                   </p>
                 </div>
-                <ul className="!my-0 !list-none !pl-0 space-y-3">
-                  {mitVideos.map(video => (
-                    <MitVideoCard key={video.id} resource={video} />
-                  ))}
-                </ul>
+
+                {mitSupplement.supplement.length > 0 ? (
+                  <ul className="!my-0 !list-none !pl-0 space-y-2.5">
+                    {mitSupplement.supplement.map(item => (
+                      <MitVideoCard key={item.id} resource={item} />
+                    ))}
+                  </ul>
+                ) : null}
+
+                {mitSupplement.furtherReading.length > 0 ? (
+                  <details className="rounded-[var(--radius-lg)] border border-border bg-canvas/50 px-3.5 py-2.5">
+                    <summary className="cursor-pointer text-xs font-medium text-ink">
+                      Đọc thêm nâng cao ({mitSupplement.furtherReading.length} mục, không bắt buộc)
+                    </summary>
+                    <ul className="!mb-0 !mt-3 !list-none !pl-0 space-y-2.5">
+                      {mitSupplement.furtherReading.map(item => (
+                        <MitVideoCard key={item.id} resource={item} />
+                      ))}
+                    </ul>
+                  </details>
+                ) : null}
+
+                {mitSupplement.comparisonNoteVi ? (
+                  <p className="!my-0 text-xs leading-relaxed text-ink-secondary">
+                    <strong className="font-semibold text-ink">Lưu ý đối chiếu HUS: </strong>
+                    {mitSupplement.comparisonNoteVi}
+                  </p>
+                ) : null}
               </section>
             ) : null}
 

@@ -117,6 +117,85 @@ export function topicProgress(
   return { done: ids.filter(id => p.doneIds.includes(id)).length, total: ids.length };
 }
 
+export interface Che1080LessonSupplementItem {
+  readonly id: string;
+  readonly courseCode: string;
+  readonly resourceType: 'video-lecture' | 'notes-slides-pdf' | 'exercise-pdf' | 'solution-pdf';
+  readonly title: string;
+  readonly relevanceVi: string;
+  readonly url: string;
+  readonly youtubeId?: string;
+}
+
+export interface Che1080LessonSupplement {
+  readonly supplement: readonly Che1080LessonSupplementItem[];
+  readonly furtherReading: readonly Che1080LessonSupplementItem[];
+  readonly comparisonNoteVi?: string;
+}
+
+const CHE1080_RESOURCE_TYPE: Record<MitResourceKind, Che1080LessonSupplementItem['resourceType']> = {
+  video: 'video-lecture',
+  'lecture-notes': 'notes-slides-pdf',
+  exercise: 'exercise-pdf',
+  solution: 'solution-pdf',
+};
+
+const TYPE_SORT_ORDER: Record<MitResourceKind, number> = {
+  video: 0,
+  'lecture-notes': 1,
+  exercise: 2,
+  solution: 3,
+};
+
+export function getChe1080MitSupplementForLesson(
+  topics: readonly Che1080Topic[],
+  resources: readonly MitResource[],
+  lessonId: string,
+): Che1080LessonSupplement {
+  const matchedTopics = topics.filter(t => t.lessonIds.includes(lessonId));
+  if (matchedTopics.length === 0) {
+    return { supplement: [], furtherReading: [] };
+  }
+
+  const supplement: Che1080LessonSupplementItem[] = [];
+  const furtherReading: Che1080LessonSupplementItem[] = [];
+  const seen = new Set<string>();
+  const notes: string[] = [];
+
+  for (const topic of matchedTopics) {
+    for (const resolved of resolveTopicRefs(topic, resources)) {
+      if (resolved.ref.note && !notes.includes(resolved.ref.note)) {
+        notes.push(resolved.ref.note);
+      }
+      const isFurther = resolved.ref.level === 'advanced' || resolved.ref.status === 'suggested';
+      const sorted = [...resolved.resources].sort(
+        (a, b) => TYPE_SORT_ORDER[a.type] - TYPE_SORT_ORDER[b.type] || a.lectureNumber - b.lectureNumber,
+      );
+      for (const r of sorted) {
+        if (seen.has(r.id)) continue;
+        seen.add(r.id);
+        const item: Che1080LessonSupplementItem = {
+          id: r.id,
+          courseCode: r.courseLabel,
+          resourceType: CHE1080_RESOURCE_TYPE[r.type],
+          title: r.title,
+          relevanceVi: resolved.ref.relevanceVi,
+          url: r.ocwUrl,
+          ...(r.type === 'video' && r.youtubeId ? { youtubeId: r.youtubeId } : {}),
+        };
+        if (isFurther) furtherReading.push(item);
+        else supplement.push(item);
+      }
+    }
+  }
+
+  return {
+    supplement,
+    furtherReading,
+    ...(notes.length > 0 ? { comparisonNoteVi: notes.join(' ') } : {}),
+  };
+}
+
 /** Parses stored JSON; unknown/renamed ids are kept harmlessly but ignored by counts. */
 export function parseProgress(raw: string | null): Che1080Progress {
   if (!raw) return EMPTY_CHE1080_PROGRESS;

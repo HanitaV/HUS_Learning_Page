@@ -6,6 +6,7 @@ import { courseLessons } from '../../src/core/learning/content';
 import { courseRegistry } from '../../src/infrastructure/content/catalogue';
 import { learningContent } from '../../src/infrastructure/content/learning';
 import {
+  getChe1080MitSupplementForLesson,
   parseProgress,
   resolveTopicRefs,
   searchHub,
@@ -70,6 +71,18 @@ describe('CHE1080 \u2194 MIT mapping', () => {
   });
   it('generated manifest is not hand-edited (header present)', () => {
     expect(readFileSync('src/content/mit/che1080-resources.ts', 'utf8').startsWith('// GENERATED')).toBe(true);
+  });
+  it('returns targeted supplementary MIT items and optional advanced reading per lesson', () => {
+    const mo = getChe1080MitSupplementForLesson(CHE1080_TOPICS, MIT_CHE1080_RESOURCES, 'gc-mo-theory');
+    expect(mo.supplement.length).toBeGreaterThan(0);
+    expect(mo.supplement[0]?.resourceType).toBe('video-lecture');
+    expect(mo.supplement[0]?.youtubeId).toMatch(/^[a-zA-Z0-9_-]{11}$/);
+    expect(mo.furtherReading.length).toBeGreaterThan(0);
+    expect(mo.furtherReading.every(r => r.courseCode === '5.112')).toBe(true);
+
+    const empty = getChe1080MitSupplementForLesson(CHE1080_TOPICS, MIT_CHE1080_RESOURCES, 'phy1159-t1-1');
+    expect(empty.supplement).toEqual([]);
+    expect(empty.furtherReading).toEqual([]);
   });
 });
 

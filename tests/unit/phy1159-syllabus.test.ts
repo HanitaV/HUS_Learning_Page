@@ -3,6 +3,7 @@ import { PHY1159_SYLLABUS_CHAPTERS } from '../../src/content/courses/phy1159/syl
 import {
   EMPTY_SYLLABUS_PROGRESS,
   filterSyllabusChapters,
+  getMitSupplementForLesson,
   getMitVideosForLesson,
   parseSyllabusProgress,
   readSyllabusProgress,
@@ -48,8 +49,24 @@ describe('PHY1159 syllabus & MIT OCW logic', () => {
       }
     }
 
-    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t1-1').length).toBeGreaterThan(0);
-    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t11-1').length).toBe(3);
+    // Targeted per-lesson MIT supplement mapping
+    expect(getMitSupplementForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t1-1').supplement).toEqual([]);
+    expect(
+      getMitSupplementForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t1-2').supplement.map(r => r.id),
+    ).toEqual(['mit-801sc-ch2-pdf']);
+    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t2-1').map(r => r.id)).toEqual([
+      'mit-801sc-l1',
+      'mit-801sc-l2',
+    ]);
+    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t11-3').map(r => r.id)).toEqual([
+      'mit-560-lec9',
+      'mit-560-lec10',
+    ]);
+    expect(
+      getMitSupplementForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t11-3').furtherReading.map(
+        r => r.id,
+      ),
+    ).toEqual(['mit-8044-lec8-9']);
     expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'gc-atomic-structure')).toEqual([]);
   });
 

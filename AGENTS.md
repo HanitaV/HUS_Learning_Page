@@ -31,7 +31,7 @@ Run `npm run build` (typecheck, unit tests, build) and `npm run test:e2e` for fo
 
 Use HashRouter and router links. Vite `base: './'` produces portable static assets. The root `index.html` source module entry is rewritten by Vite; it is not a hardcoded production asset URL. For future public assets, resolve a relative path through `import.meta.env.BASE_URL`; preserve and encode Unicode path segments. No SSR, backend, database server, API keys, external runtime CDN requirements, or root-relative asset URLs. Only `dist/` is deployed; never stage all of `docs/` as website content.
 
-Use semantic HTML, visible keyboard focus, a working skip link, accessible names, and responsive layouts. Theme tokens are provisional; Antigravity owns the main UI. Keep the foundation minimal until a specific feature needs more directories, providers, storage, or libraries.
+Use semantic HTML, visible keyboard focus, a working skip link, accessible names, and responsive layouts. Whenever adding, removing, or toggling UI elements, sections, or states, consider purposeful, lightweight animations/transitions (preferring GPU-composited `opacity`/`transform` and always honoring `prefers-reduced-motion: reduce`) so transitions feel seamless rather than abrupt. Theme tokens are provisional; Antigravity owns the main UI. Keep the foundation minimal until a specific feature needs more directories, providers, storage, or libraries.
 
 ## Continuation and parallel subagents
 

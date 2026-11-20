@@ -66,30 +66,64 @@ function ResourceRow({
   readonly onToggle: () => void;
   readonly onOpen: () => void;
 }) {
-  const href = r.type === 'video' && r.youtubeId ? `https://www.youtube.com/watch?v=${r.youtubeId}` : r.ocwUrl;
+  const [playerOpen, setPlayerOpen] = useState(false);
+  const hasInlineVideo = r.type === 'video' && Boolean(r.youtubeId);
   return (
-    <li className="flex flex-col gap-2 rounded-[var(--radius-lg)] border border-border bg-canvas/60 p-3 sm:flex-row sm:items-center sm:justify-between">
-      <div className="min-w-0 space-y-1">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <Badge tone="accent" mono>{COURSE_LABEL[r.courseId]} · L{r.lectureNumber}</Badge>
-          <Badge tone="neutral">{TYPE_LABEL[r.type]}</Badge>
+    <li className="space-y-3 rounded-[var(--radius-lg)] border border-border bg-canvas/60 p-3">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div className="min-w-0 space-y-1">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <Badge tone="accent" mono>{COURSE_LABEL[r.courseId]} · L{r.lectureNumber}</Badge>
+            <Badge tone="neutral">{TYPE_LABEL[r.type]}</Badge>
+          </div>
+          <p className="text-sm font-medium text-ink">{r.title}</p>
+          <p className="text-xs text-ink-muted">
+            {r.localPath ? 'Có bản trong kho tài liệu cục bộ của dự án (không phát hành trực tuyến); ' : ''}
+            mở trên trang MIT OCW chính thức. CC BY-NC-SA 4.0.
+          </p>
         </div>
-        <p className="text-sm font-medium text-ink">{r.title}</p>
-        <p className="text-xs text-ink-muted">
-          {r.localPath ? 'Có bản trong kho tài liệu cục bộ của dự án (không phát hành trực tuyến); ' : ''}
-          mở trên trang MIT OCW chính thức. CC BY-NC-SA 4.0.
-        </p>
+        <div className="flex shrink-0 flex-wrap items-center gap-2">
+          <label className="flex min-h-[40px] items-center gap-2 text-xs text-ink">
+            <input type="checkbox" checked={done} onChange={onToggle} className="h-4 w-4" />
+            Đã học
+          </label>
+          {hasInlineVideo ? (
+            <button
+              type="button"
+              aria-expanded={playerOpen}
+              onClick={() => {
+                setPlayerOpen(prev => !prev);
+                onOpen();
+              }}
+              className={`hus-btn text-xs ${playerOpen ? 'hus-btn-secondary' : 'hus-btn-primary'}`}
+            >
+              {playerOpen ? 'Đóng video' : 'Xem video tại đây'}
+            </button>
+          ) : null}
+          <a href={r.ocwUrl} target="_blank" rel="noopener noreferrer" onClick={onOpen} className="hus-btn hus-btn-secondary text-xs !no-underline">
+            <span>Mở trên MIT OCW</span>
+            <ExternalLinkIcon width={13} height={13} />
+          </a>
+        </div>
       </div>
-      <div className="flex shrink-0 items-center gap-2">
-        <label className="flex min-h-[40px] items-center gap-2 text-xs text-ink">
-          <input type="checkbox" checked={done} onChange={onToggle} className="h-4 w-4" />
-          Đã học
-        </label>
-        <a href={href} target="_blank" rel="noopener noreferrer" onClick={onOpen} className="hus-btn hus-btn-secondary text-xs !no-underline">
-          <span>Mở</span>
-          <ExternalLinkIcon width={13} height={13} />
-        </a>
-      </div>
+
+      {playerOpen && hasInlineVideo && r.youtubeId ? (
+        <div className="space-y-1.5">
+          <div className="aspect-video w-full overflow-hidden rounded-[var(--radius-md)] border border-border bg-black">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${encodeURIComponent(r.youtubeId)}?rel=0`}
+              title={`${r.title} — ${COURSE_LABEL[r.courseId]}`}
+              className="h-full w-full border-0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+          <p className="text-[11px] text-ink-muted">
+            Nguồn phát: YouTube / MIT OpenCourseWare (tiếng Anh).
+          </p>
+        </div>
+      ) : null}
     </li>
   );
 }

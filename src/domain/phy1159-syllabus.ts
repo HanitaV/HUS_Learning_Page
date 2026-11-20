@@ -35,6 +35,7 @@ export interface MitOcwResourceRef {
   readonly relevanceVi: string;
   readonly url: string;
   readonly youtubeId?: string;
+  readonly lessonIds?: readonly EntityId[];
 }
 
 export interface Phy1159SyllabusChapter {

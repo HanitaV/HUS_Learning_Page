@@ -6,13 +6,47 @@ import type {
 } from '../../domain/phy1159-syllabus';
 import { normalizeVietnamese } from '../courses/search';
 
+export interface LessonMitSupplement {
+  readonly supplement: readonly MitOcwResourceRef[];
+  readonly furtherReading: readonly MitOcwResourceRef[];
+  readonly comparisonNoteVi?: string;
+  readonly selfStudyChapter?: boolean;
+}
+
+export function getMitSupplementForLesson(
+  chapters: readonly Phy1159SyllabusChapter[],
+  lessonId: EntityId,
+): LessonMitSupplement {
+  const matchedResources: MitOcwResourceRef[] = [];
+  let comparisonNoteVi: string | undefined;
+  let selfStudyChapter = false;
+
+  for (const chapter of chapters) {
+    if (chapter.webLessonIds.includes(lessonId)) {
+      comparisonNoteVi = chapter.comparisonNoteVi;
+      if (chapter.selfStudy) selfStudyChapter = true;
+    }
+    for (const resource of chapter.mitResources) {
+      if (resource.lessonIds?.includes(lessonId)) {
+        matchedResources.push(resource);
+      }
+    }
+  }
+
+  return {
+    supplement: matchedResources.filter(r => r.category === 'supplement'),
+    furtherReading: matchedResources.filter(r => r.category === 'further-reading'),
+    ...(comparisonNoteVi ? { comparisonNoteVi } : {}),
+    ...(selfStudyChapter ? { selfStudyChapter } : {}),
+  };
+}
+
 export function getMitVideosForLesson(
   chapters: readonly Phy1159SyllabusChapter[],
   lessonId: EntityId,
 ): readonly MitOcwResourceRef[] {
-  const chapter = chapters.find(ch => ch.webLessonIds.includes(lessonId));
-  if (!chapter) return [];
-  return chapter.mitResources.filter(r => Boolean(r.youtubeId));
+  const { supplement, furtherReading } = getMitSupplementForLesson(chapters, lessonId);
+  return [...supplement, ...furtherReading].filter(r => Boolean(r.youtubeId));
 }
 
 export const PHY1159_SYLLABUS_STORAGE_KEY = 'hus-learning-hub:phy1159-syllabus:v1';

@@ -1,16 +1,35 @@
 import { useState } from 'react';
-import type { MitOcwResourceRef, MitResourceType } from '../../domain/phy1159-syllabus';
 import { Badge } from '../ui/Badge';
 import { ExternalLinkIcon } from '../ui/Icons';
 
-const MIT_TYPE_LABEL: Record<MitResourceType, string> = {
+export type MitSupplementResourceType =
+  | 'video-lesson'
+  | 'video-lecture'
+  | 'textbook-pdf'
+  | 'notes-slides-pdf'
+  | 'exercise-pdf'
+  | 'solution-pdf';
+
+export interface MitSupplementItem {
+  readonly id: string;
+  readonly courseCode: string;
+  readonly resourceType: MitSupplementResourceType;
+  readonly title: string;
+  readonly relevanceVi: string;
+  readonly url: string;
+  readonly youtubeId?: string;
+}
+
+const MIT_TYPE_LABEL: Record<MitSupplementResourceType, string> = {
   'video-lesson': 'Bài học (có video)',
   'video-lecture': 'Video bài giảng',
   'textbook-pdf': 'Giáo trình PDF',
   'notes-slides-pdf': 'Notes & Slides (PDF)',
+  'exercise-pdf': 'Bài tập (PDF)',
+  'solution-pdf': 'Lời giải (PDF)',
 };
 
-export function MitVideoCard({ resource }: { readonly resource: MitOcwResourceRef }) {
+export function MitVideoCard({ resource }: { readonly resource: MitSupplementItem }) {
   const [playerOpen, setPlayerOpen] = useState(false);
 
   return (
