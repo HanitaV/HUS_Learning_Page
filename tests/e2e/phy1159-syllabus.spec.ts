@@ -37,5 +37,17 @@ test('navigates PHY1159 9-chapter syllabus, verifies MIT OCW links, and persists
   await explorer.getByRole('button', { name: /08\s*Các hiện tượng động học của chất khí/ }).click();
   await expect(explorer.getByText(/Chưa có tài nguyên MIT phù hợp/)).toBeVisible();
 
+  // Verify click-to-load MIT video embed inside a PHY1159 lesson
+  await page.goto('./#/courses/phy1159/lessons/phy1159-t1-1');
+  const videoSection = page.getByRole('region', { name: 'Video MIT OpenCourseWare bổ trợ' });
+  await expect(videoSection).toBeVisible();
+  await expect(videoSection.locator('iframe')).toHaveCount(0);
+  await videoSection.getByRole('button', { name: 'Xem video tại đây' }).first().click();
+  const iframe = videoSection.locator('iframe');
+  await expect(iframe).toHaveCount(1);
+  await expect(iframe).toHaveAttribute('src', /youtube-nocookie\.com\/embed\//);
+  await videoSection.getByRole('button', { name: 'Đóng video' }).click();
+  await expect(videoSection.locator('iframe')).toHaveCount(0);
+
   expect(errors).toEqual([]);
 });

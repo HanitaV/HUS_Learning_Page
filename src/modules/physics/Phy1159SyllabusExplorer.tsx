@@ -1,11 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import type { SubjectToolProps } from '../../contracts/subject-module';
-import type {
-  MitOcwResourceRef,
-  MitResourceType,
-  Phy1159SyllabusProgress,
-} from '../../domain/phy1159-syllabus';
+import type { Phy1159SyllabusProgress } from '../../domain/phy1159-syllabus';
 import {
   EMPTY_SYLLABUS_PROGRESS,
   filterSyllabusChapters,
@@ -19,21 +15,14 @@ import {
   PHY1159_SYLLABUS_CHAPTERS,
 } from '../../content/courses/phy1159/syllabus-ocw';
 import { learningContent } from '../../infrastructure/content/learning';
+import { MitVideoCard } from '../../components/learning/MitVideoCard';
 import { Badge } from '../../components/ui/Badge';
 import {
   ArrowRightIcon,
   BookOpenIcon,
   CheckCircleIcon,
-  ExternalLinkIcon,
 } from '../../components/ui/Icons';
 import { SearchInput } from '../../components/ui/SearchInput';
-
-const MIT_TYPE_LABEL: Record<MitResourceType, string> = {
-  'video-lesson': 'Bài học (có video)',
-  'video-lecture': 'Video bài giảng',
-  'textbook-pdf': 'Giáo trình PDF',
-  'notes-slides-pdf': 'Notes & Slides (PDF)',
-};
 
 const DOC_KIND_LABEL = {
   'syllabus-pdf': 'Đề cương PDF',
@@ -50,32 +39,6 @@ function getSafeStorage(): Storage | null {
     return null;
   }
   return null;
-}
-
-function MitResourceRow({ resource }: { readonly resource: MitOcwResourceRef }) {
-  return (
-    <li className="flex flex-col gap-2.5 rounded-[var(--radius-lg)] border border-border bg-canvas/60 p-3.5 sm:flex-row sm:items-start sm:justify-between">
-      <div className="min-w-0 flex-1 space-y-1">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <Badge tone="accent" mono>
-            MIT {resource.courseCode}
-          </Badge>
-          <Badge tone="neutral">{MIT_TYPE_LABEL[resource.resourceType]}</Badge>
-        </div>
-        <p className="text-sm font-medium text-ink">{resource.title}</p>
-        <p className="text-xs leading-relaxed text-ink-secondary">{resource.relevanceVi}</p>
-      </div>
-      <a
-        href={resource.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hus-btn hus-btn-secondary shrink-0 self-start text-xs !no-underline"
-      >
-        <span>Mở trên MIT OCW</span>
-        <ExternalLinkIcon width={13} height={13} />
-      </a>
-    </li>
-  );
 }
 
 export default function Phy1159SyllabusExplorer({ initialPreset }: SubjectToolProps) {
@@ -350,7 +313,7 @@ export default function Phy1159SyllabusExplorer({ initialPreset }: SubjectToolPr
             {supplementMit.length > 0 ? (
               <ul className="space-y-2">
                 {supplementMit.map(resource => (
-                  <MitResourceRow key={resource.id} resource={resource} />
+                  <MitVideoCard key={resource.id} resource={resource} />
                 ))}
               </ul>
             ) : (
@@ -369,7 +332,7 @@ export default function Phy1159SyllabusExplorer({ initialPreset }: SubjectToolPr
               </h5>
               <ul className="space-y-2">
                 {furtherMit.map(resource => (
-                  <MitResourceRow key={resource.id} resource={resource} />
+                  <MitVideoCard key={resource.id} resource={resource} />
                 ))}
               </ul>
             </div>

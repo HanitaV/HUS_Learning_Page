@@ -10,7 +10,10 @@ import { progressStore } from '../infrastructure/progress/store';
 import { useLearningProgress } from '../app/useLearningProgress';
 import { useWorkspacePreferences } from '../app/useWorkspacePreferences';
 import { LessonWorkspaceShell } from '../components/learning/LessonWorkspaceShell';
+import { MitVideoCard } from '../components/learning/MitVideoCard';
 import { ResourceList } from '../components/learning/ResourceList';
+import { getMitVideosForLesson } from '../core/physics/syllabus-ocw';
+import { PHY1159_SYLLABUS_CHAPTERS } from '../content/courses/phy1159/syllabus-ocw';
 import { getDiagramLabel } from '../modules/diagrams/registry';
 import { Badge } from '../components/ui/Badge';
 import { Breadcrumbs } from '../components/ui/Breadcrumbs';
@@ -152,6 +155,10 @@ function LessonReader({ course, lesson }: { readonly course: Course; readonly le
   const lessonResources = useMemo(
     () => learningContent.resources.filter(r => lesson.resourceIds.includes(r.id)),
     [lesson.resourceIds],
+  );
+  const mitVideos = useMemo(
+    () => getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, lesson.id),
+    [lesson.id],
   );
   const prerequisites = useMemo(
     () =>
@@ -341,6 +348,31 @@ function LessonReader({ course, lesson }: { readonly course: Course; readonly le
                     );
                   })}
                 </div>
+              </section>
+            ) : null}
+
+            {mitVideos.length > 0 ? (
+              <section
+                aria-labelledby="mit-videos-heading"
+                className="mt-10 space-y-4 border-t border-border pt-8"
+              >
+                <div className="space-y-1">
+                  <h2
+                    id="mit-videos-heading"
+                    className="!my-0 !border-0 !pb-0 text-lg font-semibold text-ink"
+                  >
+                    Video MIT OpenCourseWare bổ trợ
+                  </h2>
+                  <p className="!my-0 text-xs text-ink-secondary">
+                    Nguồn tài nguyên bên ngoài bằng tiếng Anh. Trình phát chỉ tải khi bạn bấm “Xem
+                    video tại đây”.
+                  </p>
+                </div>
+                <ul className="!my-0 !list-none !pl-0 space-y-3">
+                  {mitVideos.map(video => (
+                    <MitVideoCard key={video.id} resource={video} />
+                  ))}
+                </ul>
               </section>
             ) : null}
 

@@ -3,6 +3,7 @@ import { PHY1159_SYLLABUS_CHAPTERS } from '../../src/content/courses/phy1159/syl
 import {
   EMPTY_SYLLABUS_PROGRESS,
   filterSyllabusChapters,
+  getMitVideosForLesson,
   parseSyllabusProgress,
   readSyllabusProgress,
   resolveChapterByPreset,
@@ -34,12 +35,22 @@ describe('PHY1159 syllabus & MIT OCW logic', () => {
       }
       for (const mit of chapter.mitResources) {
         expect(mit.url.startsWith('https://ocw.mit.edu/courses/')).toBe(true);
+        if (mit.resourceType === 'textbook-pdf' || mit.resourceType === 'notes-slides-pdf') {
+          expect(mit.youtubeId).toBeUndefined();
+        }
+        if (mit.youtubeId) {
+          expect(mit.youtubeId).toMatch(/^[a-zA-Z0-9_-]{11}$/);
+        }
         if (mit.courseCode === '8.044') {
           expect(mit.category).toBe('further-reading');
           expect(mit.resourceType).toBe('notes-slides-pdf');
         }
       }
     }
+
+    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t1-1').length).toBeGreaterThan(0);
+    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'phy1159-t11-1').length).toBe(3);
+    expect(getMitVideosForLesson(PHY1159_SYLLABUS_CHAPTERS, 'gc-atomic-structure')).toEqual([]);
   });
 
   it('filters chapters accent-insensitively and resolves presets safely', () => {

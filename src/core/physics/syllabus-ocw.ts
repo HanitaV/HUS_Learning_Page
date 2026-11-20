@@ -1,9 +1,19 @@
 import type { EntityId } from '../../domain/learning';
 import type {
+  MitOcwResourceRef,
   Phy1159SyllabusChapter,
   Phy1159SyllabusProgress,
 } from '../../domain/phy1159-syllabus';
 import { normalizeVietnamese } from '../courses/search';
+
+export function getMitVideosForLesson(
+  chapters: readonly Phy1159SyllabusChapter[],
+  lessonId: EntityId,
+): readonly MitOcwResourceRef[] {
+  const chapter = chapters.find(ch => ch.webLessonIds.includes(lessonId));
+  if (!chapter) return [];
+  return chapter.mitResources.filter(r => Boolean(r.youtubeId));
+}
 
 export const PHY1159_SYLLABUS_STORAGE_KEY = 'hus-learning-hub:phy1159-syllabus:v1';
 
