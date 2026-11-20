@@ -23,10 +23,13 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
       # Browser tests build portable output and serve at /HUS_Learning_Page/.
-      - run: npm run test:e2e
+      - name: Typecheck, unit tests, production build, and browser tests
+        run: npm run test:e2e
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:
