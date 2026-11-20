@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/HanitaV/Chemistry",
+  "revision": "ad043333d24f67da5d11611678754397f4595e49",
+  "inspectedOn": "2026-11-19",
+  "truncated": false,
+  "files": [
+    {
+      "path": "public/documents/chapter-1/bai-tap-chuong-1.pdf",
+      "sha": "bb357d2e530f855af7be5675bb0ce1cb4de01794",
+      "bytes": 87093
+    },
+    {
+      "path": "public/documents/chapter-1/chuong-1-cau-tao-nguyen-tu.pdf",
+      "sha": "7e6ce9b1dd3865e4b74c4eec6af47f912c66f521",
+      "bytes": 2881462
+    },
+    {
+      "path": "public/documents/chapter-2/chuong-2-cau-tao-phan-tu.pdf",
+      "sha": "c22fd95cd38feba4cc455e164fcfe29993046d47",
+      "bytes": 2999093
+    },
+    {
+      "path": "public/documents/chapter-3/chuong-3-nhiet-dong-hoc.pdf",
+      "sha": "c44011b3065444b0d9cce91174ea14a1e31f9dad",
+      "bytes": 2185384
+    }
+  ]
+}

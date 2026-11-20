@@ -1,0 +1,3013 @@
+{
+  "repository": "https://github.com/HanitaV/DSA-HUS",
+  "revision": "01e2385bc1bbf16e3b7a2ab527e1b572ae06360d",
+  "inspectedOn": "2026-11-19",
+  "truncated": false,
+  "files": [
+    {
+      "path": "docs/15. Lập trình cơ bản/FinalExam_PE_De1 (1).pdf",
+      "sha": "51ed5cae1bbda038efe60b7368e90b896d7491a2",
+      "bytes": 120246
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/MidExam_De3 (2).pdf",
+      "sha": "64ad3e2c1bc9cdb5cd507a56d5ed96143e8121b8",
+      "bytes": 163634
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/MidExam_De4 (1).pdf",
+      "sha": "d12477b2c4d069a0a008a1c3e5f8188aa135efeb",
+      "bytes": 165437
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Array.pdf",
+      "sha": "4c57ec4c25165a7675b5eb8c85a912af6075339b",
+      "bytes": 443739
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/IO,Graphics.pdf",
+      "sha": "1a3ae66ec7335ee79b94de2f43e1f6b76407a947",
+      "bytes": 743904
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Inheritance-Exceptions.pdf",
+      "sha": "50998520ad2016d959d1db7924085f33a2e6d20a",
+      "bytes": 269096
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Interface_1.pdf",
+      "sha": "56fca09f6b69c927d9886d5f9d777f4feb9081e4",
+      "bytes": 129519
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Introduction_to_Java.pdf",
+      "sha": "746a4a69a5429ceb1aac0051fea17defb091be64",
+      "bytes": 369217
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Java Basic Programming.pdf",
+      "sha": "2084c5508fdd6444b53a7a6d0cdf6378dba5f758",
+      "bytes": 445449
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 1/Package_1.pdf",
+      "sha": "83cc2b397043918c040186b96455002a2b59e1bb",
+      "bytes": 481037
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 1 - Kiểu dữ liệu, biến, toán tử và biểu thức.docx",
+      "sha": "49c07bbecc65c5c2ebdc119cacb6c71dac20d514",
+      "bytes": 60143
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 1 - Kiểu dữ liệu, biến, toán tử và biểu thức.pdf",
+      "sha": "d79a8373818399f25281fb397d9030ca1c0a8ba5",
+      "bytes": 359950
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 2 - Phương thức, cấu trúc điều khiển, cấu trúc lặp.pdf",
+      "sha": "5d104af73aa7aa233925d7882809c0d490dfd8c7",
+      "bytes": 461618
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 3 - Mảng.pdf",
+      "sha": "af5010be53f410e753886d45656aa5de93f29381",
+      "bytes": 449213
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 4 - Lớp và đối tượng.pdf",
+      "sha": "6d3f18b0133e57277713d4df8411d894e9416894",
+      "bytes": 612650
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 5 - Kiểm soát quyền truy cập, phạm vi biến lớp, tổ chức gói.pdf",
+      "sha": "e5627e78aee68207e61a0fa435dcfeec9deb112e",
+      "bytes": 480754
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 6 - Giao diện lớp.pdf",
+      "sha": "473633d0fec344c146aa6e841ba2dfccccfbefe0",
+      "bytes": 121250
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 7 - Kế thừa, xử lí ngoại lệ.pdf",
+      "sha": "ed03a34cf543275e78f04bc2010d88908181fbb6",
+      "bytes": 264819
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Slide 2/Lec 8 - Thư viện nhập và xuất.pdf",
+      "sha": "679e7586598acf5b753e06a1573efac06d706019",
+      "bytes": 739989
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/Slide trên lớp/Tài liệu JAVA HUS.pdf",
+      "sha": "e8b571b2a504766f93997977c0010ca09d5bcefa",
+      "bytes": 540593
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/polynomial/MyArrayPolynomial.java",
+      "sha": "3594f8192e5424b4f4e17a7398ba6c41fe897e8d",
+      "bytes": 3239
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/polynomial/MyArrayPolynomialTest.java",
+      "sha": "8e22b0ed340a4976d95584f602991b77f0844e91",
+      "bytes": 1145
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/rle/RunlengthEncoding.java",
+      "sha": "ac8ab4227b3dd1a7af98f8032947ecd695af0b8b",
+      "bytes": 1605
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/statistics/MyLinkedList.java",
+      "sha": "62572a8f65b7d66cb57b736e79c7efb41034e848",
+      "bytes": 1790
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/statistics/MyNode.java",
+      "sha": "e25a80c5456f05a54b053120c1abc44b9702581e",
+      "bytes": 231
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/statistics/Statistics.java",
+      "sha": "9589f387ad4d19bf39c3db2bd2d2bec49007af8f",
+      "bytes": 1659
+    },
+    {
+      "path": "docs/15. Lập trình cơ bản/sourceFinalExam/hus/fp/statistics/TestStatistics.java",
+      "sha": "ff8f1fa5d89a85f91a727675edc71e0bd65e6b89",
+      "bytes": 1412
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/.DS_Store",
+      "sha": "6dced80a1823139b1595cb8a9f64b0b9af18e326",
+      "bytes": 6148
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/OOPHKII2425_FinalExam_De2.pdf",
+      "sha": "7feba08b54418c79efd61fa24c5ab3ca56170026",
+      "bytes": 219079
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/IntegrationCalculator.java",
+      "sha": "7f2c1bc96fcaa8724d8c4d90291f1ca9c58167a5",
+      "bytes": 996
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MidpointRule.java",
+      "sha": "c0f9e5af74959ceacf2db6a7ce7952fcc52d9d86",
+      "bytes": 2374
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MyAbstractPolynomial.java",
+      "sha": "f99702e1330da0c90c531708337d2b649dab351d",
+      "bytes": 1168
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MyArrayPolynomial.java",
+      "sha": "8a235f3c08b01e62c9cb66432bc623c733477396",
+      "bytes": 4558
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MyIntegrator.java",
+      "sha": "2e270987a17e2aed13ae22db5647e0f1193a13b7",
+      "bytes": 139
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MyListPolynomial.java",
+      "sha": "07ea140da807d100d66ea9b2c7901ed617277efa",
+      "bytes": 3625
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/MyPolynomial.java",
+      "sha": "14269eb04a0308ec84691d6cf8ee7ca1133ad8d2",
+      "bytes": 2180
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/NguyenCanhTung_23001950_Integration.txt",
+      "sha": "767b2252d9997b6240fd6709f4160946a419eb69",
+      "bytes": 1396
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/SimpsonRule.java",
+      "sha": "c4e468a5cdbf775d3f8a24531504ef9e31cbe95d",
+      "bytes": 2554
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/TestIntegrationCalculator.java",
+      "sha": "43c1efd6f1dac05b724c95c93bfcc6ec4e2b712c",
+      "bytes": 5527
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/integration/TrapezoidRule.java",
+      "sha": "3c031f421bda01dc1ac420f3923d9e5713721e56",
+      "bytes": 2497
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/matrix/MySquareMatrix.java",
+      "sha": "75e4d71280d8665e20116ff4ec872c67cdce5629",
+      "bytes": 7318
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/matrix/NguyenCanhTung_23001950_Matrix.txt",
+      "sha": "a098ae56fe69f35a73e1f6108f1adbff223d1f9c",
+      "bytes": 1908
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/matrix/TestMatrix.java",
+      "sha": "1b60e41bc788a8853e976307cc5db0ce8729fd5e",
+      "bytes": 2597
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyAbstractList.java",
+      "sha": "5b55c9dcb339d43941e7eb61616d10a0085d477c",
+      "bytes": 476
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyArrayList.java",
+      "sha": "1850f50c346a1047661d558571f756eb7314f0b1",
+      "bytes": 4061
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyIterable.java",
+      "sha": "c0c2b2eb36c1ca0dd9a39564cd50e27588d35fe6",
+      "bytes": 97
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyIterator.java",
+      "sha": "85a51c5e52eeae5d66eb2e94f1927ebe1b773671",
+      "bytes": 476
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyLinkedList.java",
+      "sha": "57c28f9b8322b21a7c04b62aebf439439bbf7c6d",
+      "bytes": 4635
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyList.java",
+      "sha": "e695f03ac0afc0f878c8740513a805f225d48341",
+      "bytes": 1339
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/MyNode.java",
+      "sha": "cbc9dac68c1abba668553b75928b9622e4a3d4d7",
+      "bytes": 455
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/NguyenCanhTung_23001950_Statistics.txt",
+      "sha": "dc00d1108fc3083cdaed920d53afe570d0a30ee3",
+      "bytes": 1950
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/Statistics.java",
+      "sha": "1539a721085fe8d7f3bb57adec85c4d87130e37d",
+      "bytes": 3675
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/Giải/statistics/TestStatistics.java",
+      "sha": "77812859b0f43f43d21df25cda7e413efff3fee2",
+      "bytes": 4466
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/OOPHKII2425_FinalExam_De2.pdf",
+      "sha": "7feba08b54418c79efd61fa24c5ab3ca56170026",
+      "bytes": 219079
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/IntegrationCalculator.java",
+      "sha": "db1d0674100810d50b69bc70747883ae826e3c61",
+      "bytes": 830
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MidpointRule.java",
+      "sha": "e5b0b7c0e8c99ecaa98e96d25d263fd7c3f2e1b2",
+      "bytes": 1353
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MyAbstractPolynomial.java",
+      "sha": "2d6dd17791105b35cff4ef42d828193b025d8962",
+      "bytes": 515
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MyArrayPolynomial.java",
+      "sha": "da6ed19c794a45a3fed66f4984c7d85f86c9ddc4",
+      "bytes": 1484
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MyIntegrator.java",
+      "sha": "2e270987a17e2aed13ae22db5647e0f1193a13b7",
+      "bytes": 139
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MyListPolynomial.java",
+      "sha": "f8b41fa1d57c6a091ec6492152434b21c53df672",
+      "bytes": 1262
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/MyPolynomial.java",
+      "sha": "14269eb04a0308ec84691d6cf8ee7ca1133ad8d2",
+      "bytes": 2180
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/SimpsonRule.java",
+      "sha": "8993736a8cccd42d25f0d44f22355e0de15171bc",
+      "bytes": 1365
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/TestIntegrationCalculator.java",
+      "sha": "a89f372e9cdbad4f7c9cf1486a78ccae7905cea0",
+      "bytes": 2213
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/integration/TrapezoidRule.java",
+      "sha": "1c6f5fb306b79541fb8135b20002c43a3b29da0b",
+      "bytes": 1355
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/matrix/MySquareMatrix.java",
+      "sha": "031c7f4f815eff549ce051b5e4b92abec870f2f8",
+      "bytes": 3625
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/matrix/TestMatrix.java",
+      "sha": "0a714afd617a6ac55175173b2abf7f8f1664b302",
+      "bytes": 1062
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyAbstractList.java",
+      "sha": "1f3f8eb5ee732939a35375020bb55dc0bf82ca2b",
+      "bytes": 281
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyArrayList.java",
+      "sha": "238a7d16c0707401ed52296b94c3c139aeb09b56",
+      "bytes": 1754
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyIterable.java",
+      "sha": "c0c2b2eb36c1ca0dd9a39564cd50e27588d35fe6",
+      "bytes": 97
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyIterator.java",
+      "sha": "ee2c7f7eaa2b9c0ee47654bc49920a1d233694e9",
+      "bytes": 476
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyLinkedList.java",
+      "sha": "320c120ea21053711a5f0c8d33f7c9197e501e49",
+      "bytes": 1711
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyList.java",
+      "sha": "87354113116e3e1c5a1aa294ff25e89fd66c49ec",
+      "bytes": 1307
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/MyNode.java",
+      "sha": "fdbdab912c81e1ef9121ec4c491ef3e856ec8e35",
+      "bytes": 277
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/Statistics.java",
+      "sha": "bbe2142d41014eb12927fd598bf7bddf263c2074",
+      "bytes": 1369
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPHKII2425_FinalExam_De2/statistics/TestStatistics.java",
+      "sha": "a68ee8152c92df5cea9dff2ca00d59fec396deb3",
+      "bytes": 2251
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip",
+      "sha": "596f41161132f8cf3160b73227f01582c08e8ccb",
+      "bytes": 244618
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/OOPHKI2425_FinalExam_De1.pdf",
+      "sha": "a49470795fb9d1e581e5e11ca6774e435da03b3e",
+      "bytes": 260961
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/AbstractNumberConverter.java",
+      "sha": "8061231ad4d2aed13d6a7885d468c1fde024ce0f",
+      "bytes": 1698
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/BinaryConverter.java",
+      "sha": "d8315fc560cbb4018532268eb2a55d413efcd599",
+      "bytes": 1128
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/HexadecimalConverter.java",
+      "sha": "57037ac43555190e46a244d21dbcb65548585c50",
+      "bytes": 1161
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/MyNumber.java",
+      "sha": "cfb3012f7765263ae05d5bdd610e58507cb885cf",
+      "bytes": 1905
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/NumberConverter.java",
+      "sha": "cd8f9adb05a9f566ac36eea42d59da4a535b615b",
+      "bytes": 341
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/OctalConverter.java",
+      "sha": "68594522745f1b713bb80c0b6b8139f1d2a534b0",
+      "bytes": 1145
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/numbersystem/TestNumberSystem.java",
+      "sha": "988e55e54bceb4301b9c8e3007ff01336460c133",
+      "bytes": 1899
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/AbstractFunction.java",
+      "sha": "3ee72f88560d749d645f416aeed54ef42b60a4d4",
+      "bytes": 271
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/BisectionSolver.java",
+      "sha": "83bf295a8be3a6946dc27a130207bb355ed37829",
+      "bytes": 676
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/MyMath.java",
+      "sha": "1fecf914bccc7c9ce6267473d2b1fb0d04c195a5",
+      "bytes": 305
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/NewtonRaphsonSolver.java",
+      "sha": "541ce2b7abcf12416270425dd3d8160854d69b5b",
+      "bytes": 684
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/RootSolver.java",
+      "sha": "1f067030084cf97f4e5ba7c8ddf25b791f96cf12",
+      "bytes": 323
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/SecantSolver.java",
+      "sha": "1468fb19f17a535c2b17d755b75a6202d25982b7",
+      "bytes": 682
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/TestRootFinding.java",
+      "sha": "432b62f7a698d39b7bd58540dc6a72bd3c2fa95a",
+      "bytes": 1087
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/UnivariateRealFunction.java",
+      "sha": "8b93f9ad6aae68dfd53fd36bc96dcbad0f464a7f",
+      "bytes": 256
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOPKHI2425_FinalExam_De1 (1).zip (Unzipped Files)/rootsolver/UnivariateRealRootFinding.java",
+      "sha": "23ff25059d59afbee9ce75ce6009a7524032f3e7",
+      "bytes": 939
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2324_FinalExam_De1/Giải.zip",
+      "sha": "7a7547b73ec4586644fdc81062bdba7426f87d1c",
+      "bytes": 23752
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2324_FinalExam_De1/OOPHK12324_FinalExam_De1.zip",
+      "sha": "28f0e8c0a8121056e4ea482cad0492629aeb7e26",
+      "bytes": 199994
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2324_FinalExam_De1/OOPHKI2324_FinalExam_De1.pdf",
+      "sha": "118ee2e68ef6a310f5978b81d847c981f272df0f",
+      "bytes": 208257
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip",
+      "sha": "4e71696ccfd41a263ff3e53764ec4c2369d7189e",
+      "bytes": 249663
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/OOPHKI2425_FinalExam_De1.pdf",
+      "sha": "a49470795fb9d1e581e5e11ca6774e435da03b3e",
+      "bytes": 260961
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/BasicStatistic.java",
+      "sha": "73e4e72dda721995fc4dfaab186c66946ffaa570",
+      "bytes": 848
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyAbstractList.java",
+      "sha": "dff58384aaeba38bd1ff86f74dc8381cc41e8300",
+      "bytes": 286
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyArrayList.java",
+      "sha": "00f0e308c166b3cdb285545041d27fafd8ba0f23",
+      "bytes": 2866
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyIterable.java",
+      "sha": "8c6e4fdd4174578a4eb92bd18c669be0d83ebff1",
+      "bytes": 93
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyIterator.java",
+      "sha": "55f1008063d2d4f0e86cefc9986e129e881d2cc8",
+      "bytes": 481
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyLinkedList.java",
+      "sha": "5e00f1586bfbe01ad83833881e77dee7f6da4a84",
+      "bytes": 2587
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/MyList.java",
+      "sha": "2fc079c549592319f6d797fc3a36fdf884e4656d",
+      "bytes": 743
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/Node.java",
+      "sha": "d9779dc7f58fdcfa2403d10b265c592b2f156cbf",
+      "bytes": 236
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/basicstatistics/TestBasicStatistics.java",
+      "sha": "dcfcd9d0c37b919e6826fc832aaf23265016e797",
+      "bytes": 1862
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/AbstractNumberConverter.java",
+      "sha": "8061231ad4d2aed13d6a7885d468c1fde024ce0f",
+      "bytes": 1698
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/BinaryConverter.java",
+      "sha": "d8315fc560cbb4018532268eb2a55d413efcd599",
+      "bytes": 1128
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/HexadecimalConverter.java",
+      "sha": "57037ac43555190e46a244d21dbcb65548585c50",
+      "bytes": 1161
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/MyNumber.java",
+      "sha": "cfb3012f7765263ae05d5bdd610e58507cb885cf",
+      "bytes": 1905
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/NumberConverter.java",
+      "sha": "cd8f9adb05a9f566ac36eea42d59da4a535b615b",
+      "bytes": 341
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/OctalConverter.java",
+      "sha": "68594522745f1b713bb80c0b6b8139f1d2a534b0",
+      "bytes": 1145
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/numbersystem/TestNumberSystem.java",
+      "sha": "988e55e54bceb4301b9c8e3007ff01336460c133",
+      "bytes": 1899
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/AbstractFunction.java",
+      "sha": "3ee72f88560d749d645f416aeed54ef42b60a4d4",
+      "bytes": 271
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/BisectionSolver.java",
+      "sha": "83bf295a8be3a6946dc27a130207bb355ed37829",
+      "bytes": 676
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/MyMath.java",
+      "sha": "1fecf914bccc7c9ce6267473d2b1fb0d04c195a5",
+      "bytes": 305
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/NewtonRaphsonSolver.java",
+      "sha": "541ce2b7abcf12416270425dd3d8160854d69b5b",
+      "bytes": 684
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/RootSolver.java",
+      "sha": "1f067030084cf97f4e5ba7c8ddf25b791f96cf12",
+      "bytes": 323
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/SecantSolver.java",
+      "sha": "1468fb19f17a535c2b17d755b75a6202d25982b7",
+      "bytes": 682
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/TestRootFinding.java",
+      "sha": "432b62f7a698d39b7bd58540dc6a72bd3c2fa95a",
+      "bytes": 1087
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/UnivariateRealFunction.java",
+      "sha": "8b93f9ad6aae68dfd53fd36bc96dcbad0f464a7f",
+      "bytes": 256
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK1_2425_FinalExam_De1/OOPKHI2425_FinalExam_De1.zip (Unzipped Files)/rootsolver/UnivariateRealRootFinding.java",
+      "sha": "23ff25059d59afbee9ce75ce6009a7524032f3e7",
+      "bytes": 939
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK22425_FinalExam_De1.zip",
+      "sha": "bb8a0d0c90a454462c05e72b43b94ff52c6ca462",
+      "bytes": 221778
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De1/Giải.zip",
+      "sha": "5e940f54da17eb32a4fd566233ee7b930cf5f489",
+      "bytes": 65155
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De1/OOP_FinalExam_2023_De1.zip",
+      "sha": "8a62cc4b1012b3587391864a607e548cf6fb920e",
+      "bytes": 189918
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De2/Giải.zip",
+      "sha": "c9a596c488046166f43a1cce50c47c21fd1e84a2",
+      "bytes": 58657
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De2/OOP_HK2_2223_FinalExam_De2.pdf",
+      "sha": "1512f408b7ce573e4ba245cd26be33d261801514",
+      "bytes": 298075
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/Bai_10_diem_OOP_HK2_2223_De3_HoQuangChung_22001549_StudentManager.zip",
+      "sha": "ce88fda6c9e5c6f2ccfb64b1b8cd378b30873521",
+      "bytes": 5148
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/Giải.zip",
+      "sha": "abca8f51b160d4813d71076c2b89208d5efaa546",
+      "bytes": 62640
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/OOP_HK2_2223_FinalExam_De3.zip",
+      "sha": "057681943b75cd6917dde9ac661e83d8027df17d",
+      "bytes": 246410
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/bookmanager/App.java",
+      "sha": "00ffcecd01a61bb289ada5f5d5b463ba95d0f15f",
+      "bytes": 5936
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/bookmanager/Book.java",
+      "sha": "bbdb825cad20933069e5e26c1174d0b3f6eca991",
+      "bytes": 1881
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/bookmanager/BookManager.java",
+      "sha": "d9037273de94b5d18f57aea1033ab78d85c12cc7",
+      "bytes": 8704
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/bookmanager/MaiHoangDuc_22001565_Book.zip",
+      "sha": "213312265000738333c6f01beba3087621d892cd",
+      "bytes": 3241
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/data/books.csv",
+      "sha": "58d754d5d9ae7068be81a60db076f177705dd2a5",
+      "bytes": 7125
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2223_FinalExam_De3/matrix/MaiHoangDuc_22001565_Matrix.txt",
+      "sha": "2c83898d5d97c509c715b5960122a127d1852036",
+      "bytes": 6293
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De1/Giải.zip",
+      "sha": "fa654768b192ac3547fcaaff60a6377d30e287c6",
+      "bytes": 76353
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De1/OOP_HK2_2324_FinalExam_De1.zip",
+      "sha": "1b50a6f2d849046f0f751e36a3f74e3e8e8a526c",
+      "bytes": 223957
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip",
+      "sha": "9254ee5f78336c45e9c39f380c854b82c6108cdc",
+      "bytes": 214604
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/OOP_HK2_2324_FinalExam_De2.pdf",
+      "sha": "b3742950fd2145ffb6b3d0915e22c6191ba66e06",
+      "bytes": 228468
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/data/students.csv",
+      "sha": "785d419b322cbd705641a741b4857075eafc444a",
+      "bytes": 2133
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/AbstractPolynomial.java",
+      "sha": "1f2bc4dcc86f13715512e9f01aac242a1b0af746",
+      "bytes": 511
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/ArrayPolynomial.java",
+      "sha": "7eadc98dc6c9a24e7ab0fb522f2287d61cbe2325",
+      "bytes": 3952
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/IntegrationCalculator.java",
+      "sha": "3032a59cb7c1b77896be5b8d3847d265df17a722",
+      "bytes": 816
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/IntegrationCalculatorTestDrive.java",
+      "sha": "c3326f6e73fdd524e13815b94bcb0d480ed62a41",
+      "bytes": 1709
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/Integrator.java",
+      "sha": "93a7fa808e44e86ea31f972cfa293c903b7c318b",
+      "bytes": 129
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/ListPolynomial.java",
+      "sha": "c2b9ffa97442fc9a607f963f7f1c74f982be4872",
+      "bytes": 3584
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/MidpointRule.java",
+      "sha": "1d490e001537c489e3f03d660c32ef7885663345",
+      "bytes": 1355
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/Polynomial.java",
+      "sha": "2dd90f0fba654fe7a1cfbd87510c3ba8c47e2b3c",
+      "bytes": 2990
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/SimpsonRule.java",
+      "sha": "5e5d5ae855587998a1827f30d83bc919c4f1c3fe",
+      "bytes": 1367
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/integration/TrapezoidRule.java",
+      "sha": "b96f48592ed6311add267a7bdc86ed5e765a8a35",
+      "bytes": 1357
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/matrix/Matrix.java",
+      "sha": "7c4742b1166a9088f2a9099d948f7e173c3cc796",
+      "bytes": 5152
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/matrix/MatrixTestDrive.java",
+      "sha": "82acb2848fe1f834d698bab6a99cb1b0e3f99e88",
+      "bytes": 1394
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/matrix/SquareMatrix.java",
+      "sha": "8df4c226441307c7b1661d9ec71db87f812f94d2",
+      "bytes": 753
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/AbstractMyList.java",
+      "sha": "73f225ab65de17395d8886e7a25576d01c56a755",
+      "bytes": 337
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/App.java",
+      "sha": "43d7d688f5fc9248b44139b2e80fb049df2cdcb6",
+      "bytes": 3299
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/MyIterable.java",
+      "sha": "e5ca5258bf0498b035f3a109267f9adc6c187311",
+      "bytes": 94
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/MyIterator.java",
+      "sha": "c540d4e4fbb4e3631e4ab68c70e4ca127d392542",
+      "bytes": 477
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/MyLinkedList.java",
+      "sha": "e1e7bb62617af296d763d9e6620cd59f79c71a7f",
+      "bytes": 2205
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/MyList.java",
+      "sha": "07189eb7f74d5b4fbf19f8b3a6d1fdcca05096a2",
+      "bytes": 900
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/Node.java",
+      "sha": "6898131b21553094ec2f654550f0baaa9b988c98",
+      "bytes": 193
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/Student.java",
+      "sha": "2e5b272532e64dddb5d23bf0fff188c79dd28d7c",
+      "bytes": 2214
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De2/OOP_HK2_2324_FinalExam_De2.zip (Unzipped Files)/hus/oop/mystudentmanager/StudentManager.java",
+      "sha": "7d26d028421378621d2c1f48d4aea9b9d545eed3",
+      "bytes": 1540
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/OOP_HK2_2324_FinalExam_De3.pdf",
+      "sha": "bcaa8d1ea934c9f70b92eb329991092b3eabe9cc",
+      "bytes": 216505
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/data/books.csv",
+      "sha": "9fde51dfef3578c5fc537f81ee3a00b1effb828e",
+      "bytes": 7123
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/AbstractMyList.java",
+      "sha": "a55596ad861a906babb3cd15a1ae3b222d3960a3",
+      "bytes": 334
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/App.java",
+      "sha": "0ed5f10a15235a1068b9368f71d7ad4009da9871",
+      "bytes": 4233
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/Book.java",
+      "sha": "ad082b3961849ebd8c94ff7a0050aeac7d15c709",
+      "bytes": 1762
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/BookManager.java",
+      "sha": "016bef33e3ebe18c96ef9b3a625052d6d4714a75",
+      "bytes": 2149
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/MyIterable.java",
+      "sha": "a279ed9f68f6e7282f4a57e699e01950a89fb0fa",
+      "bytes": 100
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/MyIterator.java",
+      "sha": "9fff1e433508142b8749f3804d8b3dcf6f51c150",
+      "bytes": 474
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/MyLinkedList.java",
+      "sha": "6b540a4f2dd56c21cd2ad09270569de7f6bac62e",
+      "bytes": 2189
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/MyList.java",
+      "sha": "634291a1d466430e3cfc3948c1e8ad8892fc5376",
+      "bytes": 897
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mybookmanager/Node.java",
+      "sha": "40513351fb5abe085ec4dcb857dc696949f3b6b0",
+      "bytes": 190
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/ANumber.java",
+      "sha": "7a2850b78d5b3405d25e6116e121304ae9c4e71f",
+      "bytes": 534
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/AbstractNumberSystemConverter.java",
+      "sha": "b7ad9476cbacb19da2743b4ab1288fabcf39a181",
+      "bytes": 1325
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/BinaryConverter.java",
+      "sha": "bbcd584b97efda5843cab376e1237e368cd19cdd",
+      "bytes": 1068
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/HexadecimalConverter.java",
+      "sha": "2d9deb8f3d40c992c7ee2d141b47f50581cca549",
+      "bytes": 1081
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/NumberSystemController.java",
+      "sha": "fc2e18d99e30d715d63acbf9c39cb274e5f2a02c",
+      "bytes": 1589
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/NumberSystemConverter.java",
+      "sha": "efce4f24a94ef8824e97f423e6d01c77ecbff9d1",
+      "bytes": 365
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/NumberSystemTestDrive.java",
+      "sha": "d2e32b80703e813d1a38767e4bd273428b41a9f7",
+      "bytes": 1950
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/mynumbersystem/OctalConverter.java",
+      "sha": "cea1754cb1baa18ed41864555fe328235ea4b52a",
+      "bytes": 1066
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/vector/AbstractMyVector.java",
+      "sha": "d9b66e815e598059452f8f600122a0e9493b8d37",
+      "bytes": 534
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/vector/MyArrayVector.java",
+      "sha": "6b92e11383ecda231ddf984dfde53b0e95af796a",
+      "bytes": 5495
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/vector/MyListVector.java",
+      "sha": "38b77b9b5fc36a0c85171a49877440f95554e073",
+      "bytes": 4873
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/vector/MyVector.java",
+      "sha": "2e95cc25e2db090f339b36a855631986751477ae",
+      "bytes": 4600
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Final Exam (Đề thi cuối kì)/OOP_HK2_2324_FinalExam_De3/hus/oop/vector/TestVector.java",
+      "sha": "e7d54287d6832cf687ac293a8966249bcaa264d7",
+      "bytes": 1235
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/CS_HK1_2223_MidtermExam_De2/CS_HK1_2223_MidtermExam_De2.zip",
+      "sha": "cd9dfd9900ee02de5169b6d8436201fae95bed25",
+      "bytes": 205473
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/CS_HK1_2223_MidtermExam_De2/Giải.zip",
+      "sha": "41617a0ab7935e1a5408593fe57c4df8cb3a460e",
+      "bytes": 46921
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/CS_HK2_2122_MidtermExam_De1/CS_HK2_2122_MidtermExam_De1.pdf",
+      "sha": "6dd55a187aa4ac15a582e4b2b79f91ce1a23265a",
+      "bytes": 268649
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOPHKII2425_MidtermExam_De3.zip",
+      "sha": "0752c4417d17eabf8d233087c94795164a70baf6",
+      "bytes": 152222
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK1_2425_MidtermExam_De1/OOPHKI2425_MidtermExam_De1.zip",
+      "sha": "f31859903ac580f9b1e6a37be645a7dbea6369d9",
+      "bytes": 163004
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2223_MidtermExam_De1/OOP_HK2_2223_MidtermExam_De1.pdf",
+      "sha": "7b576e77d413f5398ddfb8d8eb8cd12346ed2d41",
+      "bytes": 237046
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2223_MidtermExam_De2/OOP_HK2_2223_MidtermExam_De2.pdf",
+      "sha": "03a015a8ce7d5b2d7eec3f580258a637c255597b",
+      "bytes": 196094
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2223_MidtermExam_De3/Giải.zip",
+      "sha": "ee5a6116144820e79d588fa1b676c55e3a45423d",
+      "bytes": 55469
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2223_MidtermExam_De3/OOP_HK2_2223_MidtermExam_De3.pdf",
+      "sha": "c10e9bbb3de5909d4c57db3d88a7c267d0a91097",
+      "bytes": 202130
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2223_MidtermExam_De3/OOP_HK2_2223_MidtermExam_De3.zip",
+      "sha": "660668fabb0f6461e917ab4eae19c83bae2b3752",
+      "bytes": 192202
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/Giải.zip",
+      "sha": "8cc0c0213af9f55eec59b871b6fbb61fdb6f7bd8",
+      "bytes": 120097
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip",
+      "sha": "029c617dab5e02763c3e2e78483886bf4f8a3062",
+      "bytes": 185050
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/OOPHKII2324_MidtermExam_De1.pdf",
+      "sha": "71b7e2c62defd081ee2f785541da121511231f8e",
+      "bytes": 193873
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/data/books.csv",
+      "sha": "9fde51dfef3578c5fc537f81ee3a00b1effb828e",
+      "bytes": 7123
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/bookmanager/App.java",
+      "sha": "75c883ac69b34f09d92efd7536eb599d45fa0dd2",
+      "bytes": 4908
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/bookmanager/Book.java",
+      "sha": "31bca4b17fb89a3383f795860c45e12570fbac48",
+      "bytes": 2087
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/bookmanager/BookManager.java",
+      "sha": "70b6ead02c29ab0edff20abe95a6e8fff3fdf326",
+      "bytes": 4930
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/bookmanager/MyBookComparable.java",
+      "sha": "31060f0d33e680d994afceb12b05b8642346c027",
+      "bytes": 101
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/bookmanager/MyBookComparator.java",
+      "sha": "33d422a1a5e07772f97ea494d6003f24c23fedde",
+      "bytes": 108
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/AbstractMyList.java",
+      "sha": "60589b87e4d1c6dbf2083dde49a47472214a258c",
+      "bytes": 541
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/App.java",
+      "sha": "e93ffa62cf2679118bfbc5cb68f766fb3980868b",
+      "bytes": 933
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/ArrayMyList.java",
+      "sha": "cc84c8898d1301b6a8453ef15f5a25f9a3754b67",
+      "bytes": 2476
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/LinkedListMyList.java",
+      "sha": "02dcbb2c1d59e44caa02966c1247eacfb1bb5d94",
+      "bytes": 2160
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/MyList.java",
+      "sha": "633f270460b315cdd8dae8470948caffba21ef64",
+      "bytes": 1183
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/MyQueue.java",
+      "sha": "24ef866c6cd675990b08e1b29601ee50fdf3a6a5",
+      "bytes": 1015
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/MyStack.java",
+      "sha": "d4d7aaba2c57dd37685fcaa95a47e98ac13a17e0",
+      "bytes": 959
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/datastructure/Node.java",
+      "sha": "29ec608b0ccdb2f86fb0e525911e3748c732ed26",
+      "bytes": 181
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/Bread.java",
+      "sha": "04e6bb9477f67364ed93bfaf1ce09e9d36210054",
+      "bytes": 183
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/BreadStore.java",
+      "sha": "4a65cc62517be0a1eda21f626b597cb431fd0578",
+      "bytes": 2478
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/Cheese.java",
+      "sha": "39542910baaa38ef288c7673ec107b9008f1e41a",
+      "bytes": 271
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/Olives.java",
+      "sha": "f090f8191cff76eaa1c80df52466200117508d46",
+      "bytes": 271
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/ThickcrustBread.java",
+      "sha": "288c0d9f733fcdcf187418731b4d91322e05402b",
+      "bytes": 207
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/ThincrustBread.java",
+      "sha": "eeffcb6b2c1107335444acd1af406afbe3ef25fe",
+      "bytes": 204
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De1/OOP_HK2_2324_MidtermExam_De1.zip (Unzipped Files)/hus/oop/decorator/ToppingDecorator.java",
+      "sha": "98b7b7c259c77d975fb675c7388361a65381ba55",
+      "bytes": 191
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/Giải.zip",
+      "sha": "a8f842a8bfb6f37435f288f73174a725b5cb7bc2",
+      "bytes": 67706
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip",
+      "sha": "bfa4d9ce7c3a6019a866324bfa99bb14d645ea75",
+      "bytes": 188303
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/OOPHKII2324_MidtermExam_De3.pdf",
+      "sha": "25ab80086f10625619120e03f271d4fcb2d8d70d",
+      "bytes": 196950
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/data/students.csv",
+      "sha": "785d419b322cbd705641a741b4857075eafc444a",
+      "bytes": 2133
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/AbstractNumberConverter.java",
+      "sha": "34d292e3a41105125482ce3937cae9792904dfaf",
+      "bytes": 1718
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/BinaryConverter.java",
+      "sha": "a0c115ec16d909bff7ef3ba78a0a041fe3c5ec22",
+      "bytes": 1155
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/HexadecimalConverter.java",
+      "sha": "ed315ef63af1a2cc20f076996df35e98c7c5646a",
+      "bytes": 1170
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/NumberConverter.java",
+      "sha": "d2fab731b4803b5eef8bd483426f69db5b675984",
+      "bytes": 343
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/NumberSystemTestDrive.java",
+      "sha": "da5f61c5278e9bea5cb1e27dfed5d1891a9182d9",
+      "bytes": 1904
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/OctalConverter.java",
+      "sha": "9066ee163dabfa579827804e740acaf7ce50691f",
+      "bytes": 1154
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/numbersystem/OriginalNumber.java",
+      "sha": "ffeecf8a8cb788b55d45a7b68e557bc821c61843",
+      "bytes": 1686
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/AbstractDataSet.java",
+      "sha": "c879346acd67ce40f4e3f8610c07cb14055ac12d",
+      "bytes": 283
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/ArrayDataSet.java",
+      "sha": "3c9276b9a716823ee4b3635049da9c0c0e0132e8",
+      "bytes": 2122
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/BasicStatistic.java",
+      "sha": "e3c4e5f093d30f8501a1f820e84dc3137b64a838",
+      "bytes": 778
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/DataSet.java",
+      "sha": "d13c3a191fc4bb7d41893eef78e57784663b0b02",
+      "bytes": 1339
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/ListDataSet.java",
+      "sha": "51fb486eebe1621257ab4df38eca5844ba675747",
+      "bytes": 1611
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/Statistic.java",
+      "sha": "90c97b8effdb3731aa7906322a4598f878005e6e",
+      "bytes": 962
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/statistics/TestStatistics.java",
+      "sha": "9775274c7e2e5db9097b5362312b5ad6b2439a02",
+      "bytes": 1996
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/studentmanager/App.java",
+      "sha": "61b178038a67e790bf4368ef69d558f91166bcd1",
+      "bytes": 4154
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/studentmanager/Student.java",
+      "sha": "d4f2d0960b06821c3b95c568b6b128df3db2c3a8",
+      "bytes": 2212
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/studentmanager/StudentComparable.java",
+      "sha": "f5de234beb5950c1ed45d37b61bf4edb88c3bdd2",
+      "bytes": 108
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/studentmanager/StudentComparator.java",
+      "sha": "abdf180e11aa865982d7ac7f5075f6890a02c026",
+      "bytes": 118
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_HK2_2324_MidtermExam_De3/OOP_HK2_2324_MidtermExam_De3.zip (Unzipped Files)/hus/oop/studentmanager/StudentManager.java",
+      "sha": "5faff89e28e01f0a06ff37fd5d0494a0d1694541",
+      "bytes": 4805
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/Giải.zip",
+      "sha": "bcd7989fa70000b057034a150fc29a1ea29bcedb",
+      "bytes": 306377
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/OOPHKI2324_MidtermExam_De1.pdf",
+      "sha": "fd1f8e1cfcfdb2e405ffa52b7124e3c5bd68cdd0",
+      "bytes": 263978
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/data/students.csv",
+      "sha": "785d419b322cbd705641a741b4857075eafc444a",
+      "bytes": 2133
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/BubbleSort.java",
+      "sha": "9e90cc60731665ccde02b153d1caa1cfb8613726",
+      "bytes": 768
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/InsertionSort.java",
+      "sha": "fdb7370067916404d4023689f50cf503bea76064",
+      "bytes": 780
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/SelectionSort.java",
+      "sha": "9787672083da302e46d2fa0fa055d5d24121cfd6",
+      "bytes": 780
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/SortStrategy.java",
+      "sha": "ab2011842739b3cfaab856ddc8f4b5025c4b7e0e",
+      "bytes": 1088
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/Sorter.java",
+      "sha": "ff840cf78b63d8430f403674e7db585e1b874fbc",
+      "bytes": 445
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/sortstrategy/TestSortStrategy.java",
+      "sha": "e07b40336204b94164744df36fd2fd6394f3e4cd",
+      "bytes": 1401
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/AbstractDataSet.java",
+      "sha": "b17e3cbc4241bd6151757c39205f5e96dc5a7d2f",
+      "bytes": 540
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/ArrayDataSet.java",
+      "sha": "f583fb0a6d7935bdbb09076c8e9719e4d2844ef0",
+      "bytes": 2130
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/BasicStatistics.java",
+      "sha": "6cb738d663087ff992d4818ce4bd2a844895be50",
+      "bytes": 788
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/DataSet.java",
+      "sha": "e6beef390e10712f10cda1eb55f42052effec328",
+      "bytes": 1060
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/LinkedListDataSet.java",
+      "sha": "4507cf935a78ebec6299cccd38c2106855ed1032",
+      "bytes": 1895
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/Node.java",
+      "sha": "1fa749f22531ffd4bb212df6bd59d1c3d2f45b83",
+      "bytes": 187
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/Statistics.java",
+      "sha": "b80e4470f071e6fafc3d4af8b16f03794df09bcc",
+      "bytes": 969
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/statistics/TestStatistics.java",
+      "sha": "fda137238abfdcb0d47144637e87f85a964ab65b",
+      "bytes": 2600
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/studentmanager/App.java",
+      "sha": "b017859f69a8c72da542f714526b07fa9d8ddc19",
+      "bytes": 4963
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/studentmanager/MyStudentComparable.java",
+      "sha": "9ac6e858c752415353b70847c8d185bcf32a2c1e",
+      "bytes": 110
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/studentmanager/MyStudentComparator.java",
+      "sha": "652024ffa2a2f40c4f3d3e7ec63e79a864524630",
+      "bytes": 120
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/studentmanager/Student.java",
+      "sha": "68e2283c1290e62e3f031ded3b081321c319d2b7",
+      "bytes": 2986
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/OOP_Midterm_DS_HK12324/hus/oop/studentmanager/StudentManager.java",
+      "sha": "ce05ea7d63d880401e3e8f9ac01e5cbfc0d2720b",
+      "bytes": 3961
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/Giải.zip",
+      "sha": "441d46a66e77a73355de8ce5efce12d5b746a64a",
+      "bytes": 65226
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/AbstractCountry.java",
+      "sha": "efee9b2718229077c04fcd97db23854727bb1686",
+      "bytes": 618
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/AfricaCountry.java",
+      "sha": "329d2276da47d5f4a7e872bda1bce95cf642b58a",
+      "bytes": 605
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/App.java",
+      "sha": "a17dacd6fc49ea2e214d5111a7f267097d9f2609",
+      "bytes": 4681
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/AsiaCountry.java",
+      "sha": "97ae4cf979ae23d17d731188f246bcd5ac3e1f90",
+      "bytes": 601
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/CountryData.java",
+      "sha": "071a84de54666768b68a886883a35b6dc5e4a114",
+      "bytes": 1944
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/CountryFactory.java",
+      "sha": "8914b78197ab99d6bf962999162887a2b0479feb",
+      "bytes": 787
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/CountryListManager.java",
+      "sha": "bd257d3e7bb9eb5349a8e716d27f950f89759c8c",
+      "bytes": 3760
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/EuropeCountry.java",
+      "sha": "d84faffede224b6af8be5c72aaddbe4a56793423",
+      "bytes": 605
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/NorthAmericaCountry.java",
+      "sha": "e0203f9489ad34bfb957d94f844e4bedb9408d4e",
+      "bytes": 617
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/OceaniaCountry.java",
+      "sha": "a76325673717bfbfc40293f68c02900306908c62",
+      "bytes": 607
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/SouthAmericaCountry.java",
+      "sha": "a60579d4afd93ba940e31659f7104ef7c88851d9",
+      "bytes": 617
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/countrylistmanager/countrylistmanager/data/countries.csv",
+      "sha": "96d73c4998430be357a6bcd98f195e0be04acb7c",
+      "bytes": 1399
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/AdditionOperator.java",
+      "sha": "ed0296411a2b9568507ff24c3e5218dd67500fa5",
+      "bytes": 197
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/DivisionOperator.java",
+      "sha": "471cd96a4ec6eca0718691873bc7df6276bf8a7f",
+      "bytes": 197
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/Evaluable.java",
+      "sha": "7502e0d0ff1dac714ef807f4262a4535e3e059b4",
+      "bytes": 79
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/Expression.java",
+      "sha": "a1300e269a57a1b8f8f9bd22eef5c80db3809171",
+      "bytes": 363
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/MultiplicationOperator.java",
+      "sha": "f77b92a17bacba6164f7d2b10dd48303d3e53b12",
+      "bytes": 203
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/Operand.java",
+      "sha": "fbb5559897a3d80df65fdf6dcb5a7a5c2e8abcab",
+      "bytes": 239
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/Operator.java",
+      "sha": "26f149e8f5b6006deb0a6921ff402665fc3324c7",
+      "bytes": 126
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/SubtractionOperator.java",
+      "sha": "1e5e9855eaa5e20f63cc6908d4a3d0e7a0479629",
+      "bytes": 200
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/expression/expression/TestExpressions.java",
+      "sha": "0519fa5ad2b51191fc044ccb81c8656f8b5e885f",
+      "bytes": 200
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/vector/vector/ArrayVector.java",
+      "sha": "0959f65cd40282590de7172330edf1b79170723b",
+      "bytes": 2337
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/vector/vector/IVector.java",
+      "sha": "e7f0dca37b77d7745ad84f04d7fabc59301a8b03",
+      "bytes": 803
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/vector/vector/ListVector.java",
+      "sha": "d700590d94cb08c11a6202f6f030962484eca6db",
+      "bytes": 1288
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề KHDL/vector/vector/TestVectors.java",
+      "sha": "fed7bb26e4843afac8f476cc10c8653be4ffdd7b",
+      "bytes": 120
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/.rescache",
+      "sha": "40e123153262776630f77ebeb9d0f4a2dc8f15f9",
+      "bytes": 73
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/Giải.zip",
+      "sha": "5e72e64daa916e20dbd032854faaf3842bedf2cb",
+      "bytes": 36493
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/.rescache",
+      "sha": "cbb3f516ce0bac7ee66d242cc3187e0ac4b53e16",
+      "bytes": 455
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/Book.java",
+      "sha": "5e4889d6d531554709ea80aa1d0b82659a637d0d",
+      "bytes": 870
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/BookComparable.java",
+      "sha": "1abb2563d6a57cfd7399b742838bb4a45bcf79cc",
+      "bytes": 101
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/BookComparator.java",
+      "sha": "4f21f10629eea66324b946694f77d04c3759677a",
+      "bytes": 108
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/BookManager.java",
+      "sha": "368197074b0926427397ce23c5ed9b735c7d4a04",
+      "bytes": 1897
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyAbstractList.java",
+      "sha": "9e82ea10426c91bcbac1e012f09331d4d2d19b9b",
+      "bytes": 290
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyArrayList.java",
+      "sha": "04d57b6f178099d10fca6e94459b785d329bf9f4",
+      "bytes": 1888
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyArrayListIterator.java",
+      "sha": "043752180e843347670d3541b2e16cba7ccb88a0",
+      "bytes": 1297
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyIterable.java",
+      "sha": "dffe861d8c55774b3af79b4aba3d6d9d727e00cc",
+      "bytes": 91
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyIterator.java",
+      "sha": "299f14c378aac6437a482a83ce5435b646289a03",
+      "bytes": 390
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyLinkedList.java",
+      "sha": "be663034e0b79d511c077574903903cb76c3b3b0",
+      "bytes": 1724
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyLinkedListIterator.java",
+      "sha": "7f33be2d7832d5fd8082d58b931986a973d0f8cb",
+      "bytes": 1128
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyLinkedListNode.java",
+      "sha": "7afd5933ea9419c65b38b95471f4c941854438d4",
+      "bytes": 496
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/MyList.java",
+      "sha": "a77c2c9b49faec65624df576d9730d6d6caf94c0",
+      "bytes": 881
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/books/books/TestMyList.java",
+      "sha": "084b94393c0365eab24b265f0ae465d8c6541c0d",
+      "bytes": 1912
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/.rescache",
+      "sha": "5a80a020eb42642416151d172d69ad9f874b048a",
+      "bytes": 78
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/Giải.zip",
+      "sha": "d37e53815a580c0bb0e6ceabb121bc5ef4189e24",
+      "bytes": 28553
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/.rescache",
+      "sha": "f5a623444ccdb8137e3d68099b901399c31b8aff",
+      "bytes": 366
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/AbstractPolynomial.java",
+      "sha": "c7075ba8337cc63627f493ae423aac12dd88700e",
+      "bytes": 517
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/ArrayPolynomial.java",
+      "sha": "5abcaa82b15669057d06792f6a54cb71770a72c3",
+      "bytes": 2988
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/BisectionSolver.java",
+      "sha": "e9a746e903da5650292103c351f2fdb7312ea728",
+      "bytes": 654
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/ListPolynomial.java",
+      "sha": "ef419746a234fbcfd9f001e47e17f6821baba347",
+      "bytes": 2613
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/NewtonRaphsonSolver.java",
+      "sha": "c472f94e16062ffe635a369d39ff60ffa9e166ab",
+      "bytes": 689
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/Polynomial.java",
+      "sha": "1a0b1a40254de0300f494526d13b3b7143c74021",
+      "bytes": 855
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/PolynomialRootFinding.java",
+      "sha": "9cc28eda56694d1ae7d3f023bc7501d1945e72af",
+      "bytes": 904
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/RootSolver.java",
+      "sha": "d335ce272cd0715d1668a34bc1bb30194577bb3e",
+      "bytes": 329
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/SecantSolver.java",
+      "sha": "e9e3c181bd15510a8dae976a4f7849d996d0ca72",
+      "bytes": 688
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Exams/Midterm Exam (Đề thi giữa kì)/Đề sưu tầm Toán Tin/polynomial/polynomial/TestPolynomial.java",
+      "sha": "40304985000f9854a2a2454cf7de5dbf016e21f9",
+      "bytes": 1847
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Homework 2- Java Basics/OOP2024_JavaExercises_Homework2_JavaLanguageBasics.pdf",
+      "sha": "21ed51ba3431a3d7ce9173f0ff47b111d8130bf1",
+      "bytes": 319764
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 1- Java Basics/OOP2024_JavaExercise__Lab1_JavaLanguageBasics_Notes.pdf",
+      "sha": "89edb4b98e48fdccdd41306c89bcfe9fd9c6a9b7",
+      "bytes": 607470
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 1- Java Basics/OOP2024_JavaExercises_Lab1_JavaLanguageBasics.pdf",
+      "sha": "3d4c528e6e83f431b8388a1f1912177c6479c76c",
+      "bytes": 333944
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 1- Java Basics/Source_Code_Lab01.zip",
+      "sha": "84e908e6d26a21bbcdb2a8cbb0c5d3926e793378",
+      "bytes": 9699
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Adapter.pdf",
+      "sha": "c9bfb585ee92e776ce1d13c77e60bb954ab3fe5b",
+      "bytes": 443090
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Decorator.pdf",
+      "sha": "2b4ca4edc906ff02239d0bbae8247e035a24f4f1",
+      "bytes": 783213
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Observer.pdf",
+      "sha": "cb02635c5cdc593816112a92050a4d142db19837",
+      "bytes": 660060
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Singleton.pdf",
+      "sha": "d0df6eb3cbf259fd5d4f6863148d06039ad73c73",
+      "bytes": 462770
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Strategy.pdf",
+      "sha": "b0dd0b96dbcf2c4448f3fa72709c887a7dbe46d3",
+      "bytes": 573687
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 10- Design Patterns/Source_Code_Lab10.zip",
+      "sha": "23c51e9e3d44bf8e3db779f3b6623f4bb6ca63a8",
+      "bytes": 27590
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/OOP2024Java_Exercise_DesignPatterns_AbstractFactory.pdf",
+      "sha": "47e406bc18f09ad9337edd1b3f9520c3be3ff4aa",
+      "bytes": 766053
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/OOP2024Java_Exercise_DesignPatterns_FactoryMethod.pdf",
+      "sha": "e1e4208fa64dcb09ae12c50a36def24af3b57580",
+      "bytes": 657917
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Iterator.pdf",
+      "sha": "894ec3cb5885f2c7699b84b65ba3e97c15ae8d61",
+      "bytes": 762240
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Observer.pdf",
+      "sha": "cb02635c5cdc593816112a92050a4d142db19837",
+      "bytes": 660060
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/OOP2024Java_Exercise_DesignPatterns_Visitor.pdf",
+      "sha": "4d461d04bfbcfba0593fdd969ca3360a2eac7051",
+      "bytes": 792220
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/Source_Code_Lab11.zip",
+      "sha": "f80eac472b8b46d007334f714bbd7f25455314fd",
+      "bytes": 45032
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/AbstractFactory.java",
+      "sha": "e683fd8685a6879eee8360f2cd9489a09db7d11f",
+      "bytes": 167
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/Application.java",
+      "sha": "5d3256ade50b97514f3b06f94125b35f8006e517",
+      "bytes": 552
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/ApplicationConfigurator.java",
+      "sha": "9ea843b81807d615eba4b432d175ea5eefc3e493",
+      "bytes": 401
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/Car.java",
+      "sha": "9a4abddf8a54a2d6c54428c8cf7456faf9b615a4",
+      "bytes": 117
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/HondaCar.java",
+      "sha": "0de095a14648c100f6f65ac2cd432663de966799",
+      "bytes": 212
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/HondaFactory.java",
+      "sha": "42739cf1f1d140a9f12b017cccb6ec6e1b5bd607",
+      "bytes": 313
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/HondaMotorcycle.java",
+      "sha": "d2a5e99b2852e1e0f8b09722258c30d45160ffe0",
+      "bytes": 230
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/Motorcycle.java",
+      "sha": "3b845d7cb0fed118d0143a444de01c2d55b49bd4",
+      "bytes": 123
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/Problem.txt",
+      "sha": "567619dd0e10cc45a7c00744b319c714fa139417",
+      "bytes": 95
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/ToyotaCar.java",
+      "sha": "d9b57748bd557b7afbc829b108f5b8b1555482cf",
+      "bytes": 214
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/ToyotaFactory.java",
+      "sha": "4f5eb35cd79a4d4d6177146fdb80dde8862d5068",
+      "bytes": 316
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/examplecarandmotorbike/ToyotaMotorcycle.java",
+      "sha": "8e48915f6ed307d448be7a3353c78789db59207a",
+      "bytes": 233
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/Appliaction.java",
+      "sha": "f2cdb5648d4b6c5ec709fea17c6ef06cb34abc8d",
+      "bytes": 373
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/ApplicationConfigurator.java",
+      "sha": "434b49518f4879db4c4c08c4578e2171e02506a7",
+      "bytes": 567
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/Button.java",
+      "sha": "db51f5e6840cc0cf9423a7b6d6604e1b12abcd0a",
+      "bytes": 108
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/Checkbox.java",
+      "sha": "98129fbee2929ef1aec06e164f69abb05a9eca19",
+      "bytes": 110
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/GUIFactory.java",
+      "sha": "323bfa4b6ecb0ccdcbc80a07bbcb4ad1afa51546",
+      "bytes": 152
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/MacButton.java",
+      "sha": "76bedfd8ac6cbe69180762a31c4461b218376ad5",
+      "bytes": 214
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/MacCheckbox.java",
+      "sha": "50c8a93d4d60f56a99397cb35a35100726ac4059",
+      "bytes": 221
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/MacFactory.java",
+      "sha": "ec3e51108075d33ee6d26c27d625956ca58e7fdc",
+      "bytes": 293
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/WinButton.java",
+      "sha": "df4a7216713b4813fcc79462c912c6fcf0eb8ada",
+      "bytes": 217
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/WinCheckbox.java",
+      "sha": "58b73808f2e9fa83f56515ee4f76ce591e774010",
+      "bytes": 223
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/pseudocode/WinFactory.java",
+      "sha": "cd958a597e8f71d52fadda8eee5f9ce60502aa30",
+      "bytes": 293
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/AbstractFactory.java",
+      "sha": "4a116bd8e0acee685abc70d22564a996f2364bb6",
+      "bytes": 116
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/AbstractFactoryPatternDemo.java",
+      "sha": "408739e7fc3742d2cfa8c2a31c2762c0cfe80e63",
+      "bytes": 646
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/FactoryProducer.java",
+      "sha": "aa39bef9e75fc10b3721cd3cc3847d80ed38507f",
+      "bytes": 293
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/Rectangle.java",
+      "sha": "0a15e1944b9fd2733696e4b0fe7df5b423193791",
+      "bytes": 197
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/RoundedRectangle.java",
+      "sha": "ce33d04c31eae44e6f5dbc25446da63a7fdd2688",
+      "bytes": 212
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/RoundedShapeFactory.java",
+      "sha": "2ff9f96217be10adf00e1b317fadec9c02c0ff0f",
+      "bytes": 210
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/RoundedSquare.java",
+      "sha": "7be3a2399c3573ea94399ae5fb9f082a1d1aaa6b",
+      "bytes": 206
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/Shape.java",
+      "sha": "0d18876881fcce21b056a0ba80947c0550c6dd0e",
+      "bytes": 101
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/ShapeFactory.java",
+      "sha": "bc93f107a6855bf868266709e49d7f9fea7476c3",
+      "bytes": 196
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/abstractfactorypattern/shape/Square.java",
+      "sha": "0eb8e132c308f68670f535bb7a01480edd07ebe6",
+      "bytes": 191
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/BasePizzaFactory.java",
+      "sha": "373a629d78de956b9c23d55472feec5d87066005",
+      "bytes": 151
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/CheesePizza.java",
+      "sha": "40477776cff21674d7a07524230a4eeece6197ed",
+      "bytes": 224
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/PepperoniPizza.java",
+      "sha": "d5620022b22d1268068069e6c0cc46eecac241b7",
+      "bytes": 230
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/Pizza.java",
+      "sha": "8f9c26f6159eac7350464ba00c979079914318f2",
+      "bytes": 236
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/PizzaFactory.java",
+      "sha": "4a24a7a2364e5fa5e5e3179a67910f238fd143f0",
+      "bytes": 688
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/PizzaFactoryTest.java",
+      "sha": "41e6f5b78f4f1ea1ef25fd81583c4ac2ab2b5574",
+      "bytes": 404
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/examplepizza/VeggiePizza.java",
+      "sha": "4c64575c670c76b08a99d2fdc1c525fe8d3b0bcf",
+      "bytes": 226
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/Apple.java",
+      "sha": "238bcfccd6e17e10c2b20f9c28f89083fce70668",
+      "bytes": 185
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/Banana.java",
+      "sha": "c75044d09ab69f5d62f1ce5d812c5ca09e74bbab",
+      "bytes": 187
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/CallingClass.java",
+      "sha": "f13d78aadbeaa19396eb419fd99c31eab55f94ba",
+      "bytes": 234
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/Fruit.java",
+      "sha": "55544226d54275ab5c54bd793fd064c566b389f5",
+      "bytes": 101
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/FruitFactory.java",
+      "sha": "a6b72dbf6dc122020863d2f0f45dda71d965f804",
+      "bytes": 593
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/fruit/Orange.java",
+      "sha": "91b1122d9da4c14f006961dbd8de0e81ac08f5bb",
+      "bytes": 187
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/Application.java",
+      "sha": "70744d3b23071ffdfb327668f1fd539baf9149e2",
+      "bytes": 772
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/Button.java",
+      "sha": "38a63d20aa873400b746fc8b693dbce50c080d72",
+      "bytes": 121
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/Dialog.java",
+      "sha": "65f54296a11630b337bc248f7214013b3bbfd16f",
+      "bytes": 261
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/HTMLButton.java",
+      "sha": "09894c4e25bcf4f85ab15dcb535edaf1d39bd3c7",
+      "bytes": 290
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/WebDialog.java",
+      "sha": "c550b4c0e49068e1ad9c5589a5b59b07ef16454f",
+      "bytes": 184
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/WindowsButton.java",
+      "sha": "dc73e595e5363ffeba30dbc7a882db4e4e8e3b82",
+      "bytes": 299
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/factorypattern/pseudocode/WindowsDialog.java",
+      "sha": "d1991e15fc80d94be22b8c02f003d8dbf8466603",
+      "bytes": 191
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/exampleemployee/App.java",
+      "sha": "6cfaa9aa3c22b97d1f43ff2c398f7cce58fcecf9",
+      "bytes": 421
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/exampleemployee/EmployeeIterable.java",
+      "sha": "91d33e7550c0ff7cfdfa149756a54626344c72f3",
+      "bytes": 127
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/exampleemployee/EmployeeRepository.java",
+      "sha": "a1aa85e0c4b77d486f239907b8bb1dc67c7ab6be",
+      "bytes": 824
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/exampleemployee/Iterator.java",
+      "sha": "b8626583a4be4812048947a6fc46622f91205d05",
+      "bytes": 133
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/iterator/InteratorPatternExample.java",
+      "sha": "489e05d08b5107bd75a0ba11d0bf696f6e0dea2a",
+      "bytes": 383
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/iterator/Iterable.java",
+      "sha": "04adbadf324d5b0660c776eed5df2c2cdb7fe149",
+      "bytes": 112
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/iterator/Iterator.java",
+      "sha": "c5cde9dd222e2f513e7d7e5e7536fe1fc00a23dc",
+      "bytes": 126
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/iterator/ProductCatalog.java",
+      "sha": "a51b620578dcbd68b841e313e4099547aa5ae7bb",
+      "bytes": 374
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/iterator/ProductIterator.java",
+      "sha": "ea0c58c7a7b37d01f5bd8ba5fd210cc9260c9b54",
+      "bytes": 492
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/Application.java",
+      "sha": "07dc3177c061701d2f2a5bc7197152c3b3314ac0",
+      "bytes": 678
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/Facebook.java",
+      "sha": "b91fa0a410a986ceb9e8c4bb6a08f588da6084f8",
+      "bytes": 1357
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/FacebookIterator.java",
+      "sha": "67029391d2b1cf2370f81c51d3f3cd662535f065",
+      "bytes": 912
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/Main.java",
+      "sha": "28fa5d66d6b8107f2c12ee7fe567eca18dcce19c",
+      "bytes": 1017
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/Profile.java",
+      "sha": "19642ef47bd51fccc2ceaa173ca74c0e911b8b67",
+      "bytes": 347
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/ProfileIterator.java",
+      "sha": "7ccd9b1985c1673194d61a2b675975eec1a40466",
+      "bytes": 139
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/SocialNetwork.java",
+      "sha": "2b5dc65cb84f2a8bc2d6c0a51f84f1a2cfd90f0e",
+      "bytes": 215
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/SocialSpammer.java",
+      "sha": "8fd317be05068580ba1304037bada3ea313de9f9",
+      "bytes": 322
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/interatorpattern/pseudocode/SystemFacebook.java",
+      "sha": "97682841186f4085db523550d2138f0523ef2b63",
+      "bytes": 269
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observer/Observer.java",
+      "sha": "624c354b751507597d6bace89c1a7f98e35f2d79",
+      "bytes": 123
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observer/Subject.java",
+      "sha": "5df6fd4b10e5c0b584801276ba712973886c97c2",
+      "bytes": 506
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observer/Test.java",
+      "sha": "aaf7b8e13a61fb373283503864c7d08af587d656",
+      "bytes": 800
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/BinaryObserver.java",
+      "sha": "783a6d351e65ee15f3b01646bc4a072c9d563204",
+      "bytes": 363
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/HexaObserver.java",
+      "sha": "1426d4485695c2d950d54d95ad8b8c40033ca13b",
+      "bytes": 354
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/Observer.java",
+      "sha": "bfbeb9289817a2f39df7ee86932aa2d14df6660b",
+      "bytes": 158
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/ObserverPatternDemo.java",
+      "sha": "4699b3293a77b42ff17f63cf3c515c859793f90f",
+      "bytes": 496
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/OctalObserver.java",
+      "sha": "50f16390e8b5525511b5025df07a1cbd06bea343",
+      "bytes": 360
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/observerpattern/observerdemo/Subject.java",
+      "sha": "7fb8ccf96464a0f5d3ce9be94b87dd666f473770",
+      "bytes": 679
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/Book.java",
+      "sha": "be9ab0ea05cd82a00006a68e5b4687e613a00325",
+      "bytes": 102
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/BusinessBook.java",
+      "sha": "29bf3cbb6f1f1f0b85c6d47ebc8631fa98261ca2",
+      "bytes": 238
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/DesignPatternBook.java",
+      "sha": "3795824ae8ff3b61949c2b2c9b33a957a595114c",
+      "bytes": 343
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/JavaCoreBook.java",
+      "sha": "d3d252deb5bbb657c8603a793586a0b2d19d4c02",
+      "bytes": 322
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/ProgramingBook.java",
+      "sha": "0b6274f68f6f632ad1583d9df12320cfa4bf5944",
+      "bytes": 146
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/Visitor.java",
+      "sha": "3b2e4a16db2da55fead7e0bf520854db12eaee46",
+      "bytes": 187
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/VisitorImpl.java",
+      "sha": "a0c99be719f337f6f05fc94aaf62a6aa2a834fee",
+      "bytes": 751
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/book/VisitorPatternExample.java",
+      "sha": "1e2da90077883566f448a7cf29c47ba33fb11dcc",
+      "bytes": 486
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/Computer.java",
+      "sha": "bf2a48125d598dfee1ee33354d1a1da710c6c849",
+      "bytes": 461
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/ComputerPart.java",
+      "sha": "8a8252f1ce7e3bfbc0ca738a077db60bc8b5f506",
+      "bytes": 143
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/ComputerPartDisplayVisitor.java",
+      "sha": "7bf90ea9a2969cabd9fa47a797810fd42f3b147a",
+      "bytes": 521
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/ComputerPartVisitor.java",
+      "sha": "c8d9d5f335f0a422a5da48470fa2cbb9525313b5",
+      "bytes": 225
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/Keyboard.java",
+      "sha": "17f51f3f39517da19b55e4cda93d095ecf706380",
+      "bytes": 214
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/Monitor.java",
+      "sha": "2e1b177059580675dc07d23483e046e0dba5aac5",
+      "bytes": 213
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/Mouse.java",
+      "sha": "59123353aa919ed459d26b7008a1ba13fac8c65b",
+      "bytes": 211
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/computer/VisitorPatternDemo.java",
+      "sha": "0f4347512ccac3daaa4169c8f19bdef586f4b259",
+      "bytes": 245
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Application.java",
+      "sha": "755567b884d06338d7d7f4059994374fd25acf1e",
+      "bytes": 703
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Circle.java",
+      "sha": "8d63e310f4758bc5bdb2a1e5bff1c0f1726df4b4",
+      "bytes": 564
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/CompoundShape.java",
+      "sha": "7a1baa03eabe01c92790042347a8d275227432e9",
+      "bytes": 638
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Dot.java",
+      "sha": "432f6fcdf1e423f28d6735ad17ad121b06cd7f9a",
+      "bytes": 504
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Main.java",
+      "sha": "513488853932d4f68e806186a55e44e293ec7f9b",
+      "bytes": 194
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Rectangle.java",
+      "sha": "5211da43f0ff8cf4050164705b6fe745c44dd589",
+      "bytes": 622
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Shape.java",
+      "sha": "317e61cb427b38e7ce96be7bb1f9a337f45634b7",
+      "bytes": 155
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/Visitor.java",
+      "sha": "3f7f2315337e9cfb1c56f118d5d9571364a6ee3a",
+      "bytes": 226
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 11- Design Patterns/lab11/visitorpattern/pseudocode/XMLExportVisitor.java",
+      "sha": "6f066e8e72db75f689fa33d7853999a0bf8e12c2",
+      "bytes": 1215
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 2- Java Basics/OOP2024_JavaExercises_Lab2_JavaLanguageBasics.pdf",
+      "sha": "b4aaa3e4a5504ea6515e4281e296624b8bb3539b",
+      "bytes": 298488
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 2- Java Basics/Source_Code_Lab02.zip",
+      "sha": "b071bffbcf4b98d1c3a641dbfbab5fc777b1379c",
+      "bytes": 5377
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 3- Java Basics/OOP2024_JavaExercises_Lab3_JavaLanguageBasics.pdf",
+      "sha": "7bdfd8ccb363fc247382ba0b7a019108c7e6c5e7",
+      "bytes": 445879
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 3- Java Basics/Source_Code_Lab03.zip",
+      "sha": "169d728c5c80015fdf8fbea7ca2fab9c66a56372",
+      "bytes": 4072
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/OOP2024_JavaExercises_Lab4_OOP-ClassesAndObjects.pdf",
+      "sha": "8d165b766ac92a1a82be43848619beeb77b1acc6",
+      "bytes": 1042958
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/Source_Code_Lab04.zip",
+      "sha": "489b0ce1ec294f1eadf065e1795088794b3e5e44",
+      "bytes": 27826
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Account/Account.java",
+      "sha": "e53536f29f76a7c20077c37791b702e32b8e29ce",
+      "bytes": 1234
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Account/TestMain.java",
+      "sha": "3cfd2ba59f098af4abbaab41ac06e47b0eaef350",
+      "bytes": 1058
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AdvancedAuthorAndBook/Author.java",
+      "sha": "92ddb5b3c93f54c073e5a594edf67d2b52a6ceb6",
+      "bytes": 679
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AdvancedAuthorAndBook/Book.java",
+      "sha": "6ba17dea6fe577c31da1e6e6925f9d3731e61f8d",
+      "bytes": 1293
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AdvancedAuthorAndBook/TestMain.java",
+      "sha": "8dbe66263dc5d0471278ba6ca26c23a5fd5bcc46",
+      "bytes": 544
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AnotherCircle/Circle.java",
+      "sha": "14f735c3c7295461aeff428bfbe70438cd6cb279",
+      "bytes": 589
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AnotherCircle/TestMain.java",
+      "sha": "22499fdd43eb627996191c2573127e62528679f4",
+      "bytes": 781
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBook/Author.java",
+      "sha": "a175f4b7f1856cd674c29c0f639f1acac80090f7",
+      "bytes": 671
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBook/Book.java",
+      "sha": "9e6a4bd6f15f230e1b723a119bcb63b7b75620bb",
+      "bytes": 1050
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBook/TestAuthor.java",
+      "sha": "f74b7aae98e70cdbe09c5805aa9c33110faca72c",
+      "bytes": 574
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBook/TestBook.java",
+      "sha": "8102cbce71c45365997daded1f656cced9e176d6",
+      "bytes": 1301
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBookYourTurn/Author.java",
+      "sha": "fa89108b2a8b09012019873166f98f333887a5b7",
+      "bytes": 527
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBookYourTurn/Book.java",
+      "sha": "ea673ea7fa83dc87cd72e31b914ef58d2685d8ce",
+      "bytes": 1398
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/AuthorAndBookYourTurn/TestMain.java",
+      "sha": "238d16ad2cced997b1f6ea2300e08ff986a2ec08",
+      "bytes": 1300
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Circle/Circle.java",
+      "sha": "1fe8589d02b8cdad6c4b66ee49a2da5126a7e44d",
+      "bytes": 802
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Circle/TestCircle.java",
+      "sha": "58f4dcd0916fe6a099a6765211f10af0f1537456",
+      "bytes": 2014
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndAccount/Account.java",
+      "sha": "f29b3b9243d401cacb80795becac5cad95f94dd6",
+      "bytes": 1055
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndAccount/Customer.java",
+      "sha": "650ab8a2062dde9871959a715ea37e5a21fb9807",
+      "bytes": 527
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndAccount/TestMain.java",
+      "sha": "a318250efdbdf48aa00d59280f42c6505148c5e2",
+      "bytes": 806
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndInvoice/Customer.java",
+      "sha": "d4d50c8f24df364be040abf71f1ab51a019dad81",
+      "bytes": 641
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndInvoice/Invoice.java",
+      "sha": "c18579fef4472ab616d3d9200cba6248e8bcbb19",
+      "bytes": 1147
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/CustomerAndInvoice/TestMain.java",
+      "sha": "52df2bc2820a103cb8e92a00a85659a3e14e9dd4",
+      "bytes": 1362
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Employee/Employee.java",
+      "sha": "a78dbc3276c560062913de6b97a12f7c21b6a65b",
+      "bytes": 1084
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Employee/TestMain.java",
+      "sha": "24f7fea89d33643dbe274e0db79f7e3f280145ee",
+      "bytes": 987
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/InvoiceItem/InvoiceItem.java",
+      "sha": "4f8f966cad985148bad01d843f0e51a678bc01d6",
+      "bytes": 965
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/InvoiceItem/TestMain.java",
+      "sha": "25e0402e9392fd4e4fceae439e4b7eccd3ef109d",
+      "bytes": 803
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyCircleAndMyPoint/MyCircle.java",
+      "sha": "8848797c85e20636beac57e5b824e9f9c64b537f",
+      "bytes": 1598
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyCircleAndMyPoint/MyPoint.java",
+      "sha": "2c4a5b350449a856cd1eedd3e702ef55c3687042",
+      "bytes": 1298
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyCircleAndMyPoint/TestMyCircle.java",
+      "sha": "d74b957d110db416f2e2181b362121f7c67e6c51",
+      "bytes": 1491
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyComplex/MyComplex.java",
+      "sha": "79cf05934b48ffd0edcfe98846517208f8133b8c",
+      "bytes": 1502
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyComplex/TestMain.java",
+      "sha": "a87f1948daa79a4aaba79f1002e868f352f9408f",
+      "bytes": 1648
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyLineAndMyPoint/MyLine.java",
+      "sha": "8488910608618007f02cbbe224a614ccf4054673",
+      "bytes": 1968
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyLineAndMyPoint/MyPoint.java",
+      "sha": "45e75a3e5b084abcab509cfe030c0f98d102b90c",
+      "bytes": 1296
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyLineAndMyPoint/TestMyLine.java",
+      "sha": "33e211f0031f1a8c73faa28376643e9c3b28543b",
+      "bytes": 1705
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyPoint/MyPoint.java",
+      "sha": "100991b9b367fd5832c3eff33f953e15795c19bb",
+      "bytes": 1296
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyPoint/TestMyPoint.java",
+      "sha": "dd8e5fa58f41822725dc4a23489c7ab28e219423",
+      "bytes": 1528
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyRectangleAndMyPoint/MyPoint.java",
+      "sha": "e00d6827445449a8ce7563e63298a78d385e1219",
+      "bytes": 1301
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyRectangleAndMyPoint/MyRectangle.java",
+      "sha": "b8d4ef3f0e31e4338c7818864f7f8bee7da9172a",
+      "bytes": 1051
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyRectangleAndMyPoint/TestMyRectangle.java",
+      "sha": "86506f4db81d83e562dcbdd0eef07965bcd73114",
+      "bytes": 905
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyTriangleAndMyPoint/MyPoint.java",
+      "sha": "767e422277afeddd353253c06ff3f539ed72d3c5",
+      "bytes": 1300
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyTriangleAndMyPoint/MyTriangle.java",
+      "sha": "c7990728bfcd3e631a07c40142ada47318fea667",
+      "bytes": 1030
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/MyTriangleAndMyPoint/TestMyTriangle.java",
+      "sha": "778dd9c3f43b4893acd436baaeabf1e23041ad9a",
+      "bytes": 910
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Rectangle/Rectangle.java",
+      "sha": "f9d168420d7b51578c42a7cdeedb7f670f3b458f",
+      "bytes": 930
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/Rectangle/TestMain.java",
+      "sha": "bb1b318509867aca1f4fe278a3bbcdf8fa2a9822",
+      "bytes": 980
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/ThemyPolyNomial/MyPolynomial.java",
+      "sha": "90eda659a8a8fbe365ad6fa511caa11d971d5b0d",
+      "bytes": 2061
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 4- Classes and Objects/lab04/ThemyPolyNomial/TestMain.java",
+      "sha": "2207da2221e9d8d51aebb0817cc46805f50a5200",
+      "bytes": 1246
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 5- Classes and Objects/OOP2024_JavaExercises_Lab5_OOP-MoreClassesAndObjects.pdf",
+      "sha": "2566e324463ff63b133bd039bb3c66148e265e78",
+      "bytes": 546551
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 5- Classes and Objects/Source_Code_Lab05.zip",
+      "sha": "441044059aa103cf256c46ec55beef70629b09ce",
+      "bytes": 8482
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 6- Inheritance/OOP2024_JavaExercises_Lab6_OOP-Inheritance.pdf",
+      "sha": "006e10ed7052e9f0c78c3595e87f81de8f8aef68",
+      "bytes": 466823
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 6- Inheritance/Source_Code_Lab06.zip",
+      "sha": "1cf2118373e53cd1f896dc4c6f3ed630fb608f4e",
+      "bytes": 12281
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 7- Polymorphism and Abstraction/OOP2024_JavaExercises_Lab7_OOP-PolymorphismAndAbstraction.pdf",
+      "sha": "aef94de313571837b4a27e3d6dc6f1a2c979cd58",
+      "bytes": 513865
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 7- Polymorphism and Abstraction/Source_Code_Lab07.zip",
+      "sha": "8f4c32d7fb894508853e0e64cf09edaed2c783af",
+      "bytes": 17519
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 8- The Java Collections Framework/OOP2024_JavaExercises_Lab8_TheJavaCollectionsFramework.pdf",
+      "sha": "e36afed5063858884671625433c34909ffcca410",
+      "bytes": 433042
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 8- The Java Collections Framework/Source_Code_Lab08.zip",
+      "sha": "ecb1c353a9c642db88224924be37977d2ac70ede",
+      "bytes": 19452
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 8- The Java Collections Framework/countrymanager.zip",
+      "sha": "b4eb3814312a1655704a680840680faeff8a772c",
+      "bytes": 7385
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 9- OOP and Collections Framework/OOP2024_JavaExercises_Lab9_OOPAndCollectionsFramework.pdf",
+      "sha": "12ae41accb4b1af1184664a9996cf72b41ea8010",
+      "bytes": 832138
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lab (Bài tập thực hành)/Lab 9- OOP and Collections Framework/Source_Code_Lab09.zip",
+      "sha": "315b10eda135e733bb9b9cfa7521dea8ca512c42",
+      "bytes": 11590
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 0- Introduction/OOP2024_Java_W0_ComputerProgrammingBasics.pdf",
+      "sha": "6cb505db37b559d8ee1c579eb46b54ed5a9df721",
+      "bytes": 8763474
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 0- Introduction/OOP2024_Java_W0_Syllabus.pdf",
+      "sha": "4daba4147a1760c93581f6447b6d827a6d6726de",
+      "bytes": 251275
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 1- Java Programming Basics - Structured Programming/OOP2024_JavaSlides_W1_JavaBasics-StructuredProgramming.pdf",
+      "sha": "f27d85e53545358ab6893f930f836e665e4a4478",
+      "bytes": 5842464
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_Bridge_Theory.pdf",
+      "sha": "498df06f752961c76365f55a48299d831756c805",
+      "bytes": 979233
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_ChainOfResponsibility_Theory.pdf",
+      "sha": "cb51046df54161688c173f78b2af0cad7939eba5",
+      "bytes": 626218
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_Command_Theory.pdf",
+      "sha": "346aa8d115c7685572e72d2f240e5ac222ccb61b",
+      "bytes": 650063
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_Mediator_Theory.pdf",
+      "sha": "d23cddfa08d93a62b7b7c9b726e539ba3588d2ea",
+      "bytes": 547532
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_Proxy_Theory.pdf",
+      "sha": "a8b0c5ecf0a51c48be28d1a09146ce09cb226ec7",
+      "bytes": 521361
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_State_Theory.pdf",
+      "sha": "24da1e1a4e4611c270cdc581cb80b7887a60c60b",
+      "bytes": 533994
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/Java_DesignPatterns_Visitor_Theory.pdf",
+      "sha": "8ee89ea55f121ca0ca03e4aa374359acb3fa7d8e",
+      "bytes": 686431
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 11- Design Patterns (Thầy bận chưa có làm Slide)/OOP2024_JavaSlides_W9_JavaDesignPatterns (1).pdf",
+      "sha": "ddc87be4ecae363265180936827cd972471e37c6",
+      "bytes": 6690151
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 12- Java Generics/OOP2024_JavaSlides_W12_JavaGenerics.pdf",
+      "sha": "2ba6113c06b3be4f3e4cde5658c1a1145e9a8463",
+      "bytes": 631888
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 13- Java Functional Programming/OOP2024_JavaSlides_W13_JavaFunctionalInterfaces.pdf",
+      "sha": "78d041713b662f6f6a8bb14f1d9dac7189325713",
+      "bytes": 682370
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 13- Java Functional Programming/OOP2024_JavaSlides_W13_JavaStreams.pdf",
+      "sha": "c0eca24990419a0a2d456084eb1113b962f27721",
+      "bytes": 579437
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 2- OOP Introduction/OOP2024_JavaSlides_W2_OOPIntroduction-FromFuntionsToObjects.pdf",
+      "sha": "54fefd6d42b5be330d3172c340d76a981a9bfafd",
+      "bytes": 6503333
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 3- Using and Designing Objects/OOP2024_JavaSlides_W3_OOP-UsingAndDesigningObjects.pdf",
+      "sha": "8fb11ad630ed646e1a212be71f0276f3e94faa0f",
+      "bytes": 3001836
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 4- Inheritance and Polymorphism/OOP2024_JavaSlides_W4_OOP-InheritanceAndPolymorphism.pdf",
+      "sha": "3b5cd48d84582f7b0bea0f2cc814026692aae631",
+      "bytes": 1884633
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 5- Abstraction/OOP2024_JavaSlides_W5_OOP-Abstraction.pdf",
+      "sha": "0921dee034194fa0d6f1e8c5a047abe68499ed34",
+      "bytes": 2195232
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 6- Java Collections Framework/OOP2024_JavaSlides_W7_JavaCollectionsFramework.pdf",
+      "sha": "a652ecf0bc9e0b13c05a7efa5733ef1abf1f8278",
+      "bytes": 1282197
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 9- Design Patterns/OOP2024_JavaSlides_W9_JavaDesignPatterns.docx",
+      "sha": "bbe96caa3c4177664fc959ca06780ca6095bdc23",
+      "bytes": 215193
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture (Slide bài giảng)/Lecture 9- Design Patterns/OOP2024_JavaSlides_W9_JavaDesignPatterns.pdf",
+      "sha": "ddc87be4ecae363265180936827cd972471e37c6",
+      "bytes": 6690151
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_CorrectnessRobustnessEfficiency.pdf",
+      "sha": "879df0e24825dac1dc1d5acf42b7dec1531ccc10",
+      "bytes": 2236549
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_JavaBasics.pdf",
+      "sha": "1b9a924b9ac4460b931bb0fe8831f4d614bb63d2",
+      "bytes": 3795579
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_JavaCollectionsFramework.pdf",
+      "sha": "79b846292a242fc5e0bb3fa1f7549e4d1f3161af",
+      "bytes": 2302747
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_LectureNotes_DesignPatterns.pdf",
+      "sha": "f461f7e62ea93749a92b3340d0df50238a095844",
+      "bytes": 7295570
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_LectureNotes_Generics.pdf",
+      "sha": "b6164ad99eb5e6571648e36079f107fc02aa64a2",
+      "bytes": 2082802
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Lecture Note (Tổng hợp bài giảng)/OOP2024_ObjectOrientedProgramming.pdf",
+      "sha": "2c36b1abb0d155c2d260e5c7a13e8666eb687314",
+      "bytes": 5558863
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/(7th Edition) Cay S. Horstmann - Big Java_ Early Objects, 7e-Wiley (2019).docx",
+      "sha": "73945fe3dee464dd4748351ff3ce292319ad57fc",
+      "bytes": 1881730
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/(7th Edition) Cay S. Horstmann - Big Java_ Early Objects, 7e-Wiley (2019).pdf",
+      "sha": "04dd1e3006e20b89343e549d565d86276c2b9d36",
+      "bytes": 45260126
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Alexander Shvets - Dive Into Design Patterns (2019).pdf",
+      "sha": "06a439be039eac813ea354ce90b35300b4191482",
+      "bytes": 33886081
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Allen Downey - Think Java (2016).pdf",
+      "sha": "317ec48ea871dc1687f6afd3ab67c2921b76109f",
+      "bytes": 1399489
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Bracha, Gilad_Buckley, Alex_Gosling, James_Joy, Bill_Steele, Guy - The Java language specification_ Java SE-Addison-Wesley (2014).pdf",
+      "sha": "729880a880f4482b8f3cb20ff46b1f663fbcdec8",
+      "bytes": 4021310
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Eric Freeman, Elisabeth Robson - Head First Design Patterns_ Building Extensible and Maintainable Object-Oriented Software-O_Reilly Media (2020).pdf",
+      "sha": "063f491263409683d602339ba06b677e67428b1e",
+      "bytes": 15393740
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Fowler, Martin - UML distilled_ a brief guide to the standard object modeling language-Addison-Wesley Professional (2003_2004).pdf",
+      "sha": "ac8ee5a4fb0e223d6cdc60bc67aaf01845d67baf",
+      "bytes": 1627604
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Graham Mitchell - Learn Java the Hard Way, 2nd Edition (2016).pdf",
+      "sha": "41218c3b7b349176691e842109199f4b01c27f9a",
+      "bytes": 1134089
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Naftalin, Maurice_Wadler, Philip - Java Generics and Collections-O_Reilly Media, Inc (2009).pdf",
+      "sha": "1b3aafde5f6737798fcfff61e3fe4b1e36d90c6d",
+      "bytes": 2889431
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Richard Warburton - Object-Oriented vs. Functional Programming-O’Reilly Media (2015).pdf",
+      "sha": "9b47448a1ab7cc52c63c5bb2356d294fcc996050",
+      "bytes": 1436070
+    },
+    {
+      "path": "docs/16. Lập trình hướng đối tượng/Tài liệu tham khảo/Sarang P., Java Programming - Learn Advanced Skills from a Java Expert, (2012).pdf",
+      "sha": "580643c6477cda34be50fa0729924e407669b219",
+      "bytes": 9109254
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 1/Hw1_JavaReview.docx",
+      "sha": "5288c67e35ff1ef7b8693a3bbde0cbe88d81b831",
+      "bytes": 198546
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 1/L1- Java Review.pdf",
+      "sha": "09770e38231215da2fb2264e935bd33f8c5074db",
+      "bytes": 359201
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 2/Hw2_SimpleSort.pdf",
+      "sha": "38895b10178179754661a283e28a16160f7b224f",
+      "bytes": 185083
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 2/L2- Sorting.pdf",
+      "sha": "148169c14994dd89642231db3363b58d36ac6983",
+      "bytes": 1447202
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 3/Hw3_ADT_ListADT.pdf",
+      "sha": "a455be00843ee77f21959cd540c25e5313b352ad",
+      "bytes": 195601
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 3/L3a - AbstractDataType.pdf",
+      "sha": "a3a90c867df64ddb44fb5f77e3130f77fdee7d1d",
+      "bytes": 360030
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 3/L3b- List ADT.pdf",
+      "sha": "003e36e8381c4d884f8533eaaf263e76cd95c0b4",
+      "bytes": 552457
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 4/Hw4_Stack and Queue.pdf",
+      "sha": "f8d9e3a986faea89cb48fad4787927b6000106ca",
+      "bytes": 204554
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 4/L4a- Stack ADT.pdf",
+      "sha": "d74f267d8cfbdfe9c461051c93f306a622bb36cc",
+      "bytes": 711770
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 4/L4b- Queue ADT.pdf",
+      "sha": "630c9cb425b3202f584f534521ba7396b652e096",
+      "bytes": 602516
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 5/Hw5_Tree&Binary Tree and Application.pdf",
+      "sha": "64ec9759ee19762a9e07a7696ab17f55e9ac3bd7",
+      "bytes": 221246
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 5/L5- Tree.pdf",
+      "sha": "55b6456837ab6161b929b0b14c2857b6b81b52be",
+      "bytes": 1088203
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 6/Hw6_Priority Queue and Heap.pdf",
+      "sha": "f2e28a1d7fa9c651cb4c962c5e18cab6474590b9",
+      "bytes": 225830
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 6/L6- Priority Queue and Heap.pdf",
+      "sha": "2e752d145c2e5e0a1996c87556e1011384eb6e40",
+      "bytes": 1456242
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 7/Homework 7_Searching and Binary Search Tree.pdf",
+      "sha": "fffb0c06fdad268fe6d7c3a4f8831f94768784e5",
+      "bytes": 157104
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 7/L7- Searching and Binary Search Tree.pdf",
+      "sha": "a0f0a162531c0a79ed9bb119bccde8889d933185",
+      "bytes": 1026288
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 8/Hw8_Graph.pdf",
+      "sha": "531b729982c24f421dfd4d6701107bbc319be3ac",
+      "bytes": 154295
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Lecture 8/L8- Graph.pdf",
+      "sha": "6a63bd9a2285547b4173b11c4bf54b966ac7a815",
+      "bytes": 579538
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/1. Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser - Data Structures and Algorithms in Java-Wiley (2014).pdf",
+      "sha": "50e352a61ca5b0a7f4506a6f7f1d7a9a4e205870",
+      "bytes": 9854487
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/2. Drake, Peter - Data structures and algorithms in Java-Prentice Hall (2008).pdf",
+      "sha": "e286aad09b67d74c04cbb9100071bbe8ab9a9ff4",
+      "bytes": 33944664
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/3. Robert Sedgewick, Kevin Wayne - Algorithms (2011, Addison-Wesley Professional).pdf",
+      "sha": "4eb25b6c0826acae5aef5cc55332481390c25cd2",
+      "bytes": 9757255
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/4. Cau truc dư lieu va giai thuat - Do Xuan Loi.pdf",
+      "sha": "4cc49ad60ce25601bdc6f710f61e8a3b1adf8dba",
+      "bytes": 5070848
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Geometric Application of BST.pdf",
+      "sha": "5759478adb2d684eb80e13d321cdd717cb39b278",
+      "bytes": 4601221
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.01.Hash_table_introduction.pptx",
+      "sha": "707f5c7d915ca9fd5a852ccb4c35f93fce31405a",
+      "bytes": 4439658
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.02.Hash_functions.pptx",
+      "sha": "b25b341cbb03867815b801b789313169914c9ff6",
+      "bytes": 4362696
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.03.Mapping_down.pptx",
+      "sha": "6d677c53231d908fe8019c3273fac808db819415",
+      "bytes": 4928482
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.04.Chained_hash_tables.pptx",
+      "sha": "5f7ed3bddf0c6403e23f87bbdf424e3ae5af581e",
+      "bytes": 5258138
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.06.Open_addressing.pptx",
+      "sha": "c98f7fa95dbc920c3f20a896fc2fdb9421c27e20",
+      "bytes": 4272300
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.07.Linear_probing.pptx",
+      "sha": "29d9022ef6ff47eb2d7712821e82494edb7d16d4",
+      "bytes": 4597302
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.08.Quadratic_probing.pptx",
+      "sha": "6e4fa81f10ff2945d4f6b0bb8aee852084fc151a",
+      "bytes": 4462637
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/9.09.Double_hashing.pptx",
+      "sha": "3e8ab7090c2d9729847b3d2216a93cb03fa21f84",
+      "bytes": 4649902
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/DSA - MAT3514/Tài liệu tham khảo/Hash Table/HashTables.pdf",
+      "sha": "2fe7828585327e164bf5fc93fe005612b753dbd4",
+      "bytes": 2519006
+    },
+    {
+      "path": "docs/17. Cấu trúc dữ liệu và giải thuật/Trắc nghiệm lý thuyết thầy Quyền.pdf",
+      "sha": "486c35c4868bfec924079dd1054ccfbbf918e3a3",
+      "bytes": 17707559
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 1 - Các khái niệm cơ bản/Bai 1 - Cac khai niem co ban.pdf",
+      "sha": "120af399422ac6716badf0ac92b691b6c3bd7b5e",
+      "bytes": 881632
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 2 - Máy Turing/Bai 2 - May Turing.pdf",
+      "sha": "2aaaa41fd83248b2ce40e018320c17eba1c1ff28",
+      "bytes": 940609
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 2 - Máy Turing/Homework1_Máy Turing.pdf",
+      "sha": "a0b09465c2259cadc40fd898a1bf8f3603212b10",
+      "bytes": 138358
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 3 - Đệ quy và khử đệ quy/Bai 3 - De qui  va khu de qui.pdf",
+      "sha": "7c9842d4fcabced47ca9b0923d71d264ad1f5e9b",
+      "bytes": 1174001
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 3 - Đệ quy và khử đệ quy/Homework2_Recursion.pdf",
+      "sha": "accbf2573219accff9a1072a6df47baa70bb465d",
+      "bytes": 181668
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 3 - Đệ quy và khử đệ quy/L3 - Recursion.pdf",
+      "sha": "e6891d9c479ec78e844c2052e266f130a8902b7a",
+      "bytes": 1215492
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 4 - Các thuật toán thử sai/Homework3_Trial and Error.pdf",
+      "sha": "9d97e19046fd9d08cc46fcb7fbc8a3c703eba4bc",
+      "bytes": 153863
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 4 - Các thuật toán thử sai/L5 - Trial and Error.pdf",
+      "sha": "3fb4fc953f6cbe1c736cc45333573fbf9e182606",
+      "bytes": 1158210
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 4 - Các thuật toán thử sai/Nhanh can.pdf",
+      "sha": "2187a09266655b5653a9e438ea9147e04b35a0b4",
+      "bytes": 76530
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 4 - Các thuật toán thử sai/Quay lui.pdf",
+      "sha": "0a974ed6105224ebc6ec0bb3ad4de52d88991015",
+      "bytes": 193309
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 5 - Thuật toán tham lam/Homework4_ Greedy Method.pdf",
+      "sha": "7b24e04d5aa57d2cc998734adc7eb3a17f8200ab",
+      "bytes": 89454
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 5 - Thuật toán tham lam/L6 - Greedy.pdf",
+      "sha": "636d4d225fdd2d17b17b9f0f764e68d978114b55",
+      "bytes": 891640
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 6 - Chia để trị/Chidetri.pdf",
+      "sha": "24427f48c59223d12116a422bef3db566c7750ef",
+      "bytes": 675947
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 6 - Chia để trị/Homework5_DivideandConquer.pdf",
+      "sha": "e3ed207607fa9676ca7ce36252d238b620c534f2",
+      "bytes": 137525
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 6 - Chia để trị/L4 - Divide and Conquer.pdf",
+      "sha": "f0d062d5e4fe7de7912cecf0efa17120575a1b2c",
+      "bytes": 565574
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 7 - Quy hoạch động/Homework6_DynamicProgramming.pdf",
+      "sha": "88624e51a560051625d786a2a95f803b07556747",
+      "bytes": 132348
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 7 - Quy hoạch động/Homework7_DynamicProgramming_update.pdf",
+      "sha": "c78211e00e84373829d780c04fa2d1afb588fc67",
+      "bytes": 167877
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/MAT3504/Bài 7 - Quy hoạch động/L7 - DynamicPrograming.pdf",
+      "sha": "9a5ea9c60dddd687d31a88e03cf9923edc5a0ae7",
+      "bytes": 862140
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/Tài liệu tham khảo/1. Anany Levitin - Introduction to the Design and Analysis of Algorithms-Pearson (2012).pdf",
+      "sha": "203633e03c89e7e44e5b3965ff7b4ffe65d48564",
+      "bytes": 13984906
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/Tài liệu tham khảo/2. Genetic Algorithm.pptx",
+      "sha": "becba34daec0a7f4463d027f3eb87e2e617fb395",
+      "bytes": 901033
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/Tài liệu tham khảo/2. Problems on Algorithms.pdf",
+      "sha": "3c3db47450335000a7ec2c61682cfb9b04cdbfc0",
+      "bytes": 2467545
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/thiet_ke_va_danh_gia_thuat_toan_9853.pdf",
+      "sha": "33ded9d5d76dc1201bf125410f91bf346efdbca2",
+      "bytes": 2426538
+    },
+    {
+      "path": "docs/18. Thiết kế đánh giá thuật toán/Đề cương ôn tập cuối kỳ_Thiết kế và đánh giá thuật toán.pdf",
+      "sha": "dfbf004d7910eb07005438d0e1189018d62af229",
+      "bytes": 77289
+    }
+  ]
+}

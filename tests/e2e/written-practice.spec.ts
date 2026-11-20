@@ -1,0 +1,50 @@
+import { expect, test } from '@playwright/test';
+
+test('drafts, compares and revises a written response across reloads', async ({ page }) => {
+  await page.goto('./#/courses/mat3514/lessons/mat3514-array-list/practice/mat3514-array-list-written');
+  const response = page.getByLabel('Lập luận của bạn');
+  await expect(response).toBeVisible();
+  await response.focus();
+  await expect(response).toBeFocused();
+  const reveal = page.getByRole('button', { name: 'Xem lời giải tham khảo' });
+  await expect(reveal).toBeDisabled();
+  await response.fill('Em trình bày cách suy luận của mình.');
+  await page.reload();
+  await expect(response).toHaveValue('Em trình bày cách suy luận của mình.');
+  await reveal.click();
+  await expect(page.getByText('Lời giải tham khảo', { exact: true })).toBeVisible();
+  const checks = page.locator('[data-written-review] input[type=checkbox]');
+  expect(await checks.count()).toBeGreaterThan(0);
+  for (const check of await checks.all()) await check.check();
+  await page.getByLabel('Bản sửa của bạn').fill('Em bổ sung các bước lập luận.');
+  await expect(page.getByText('Đã tự đối chiếu')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Hoàn tất tự đối chiếu' }).click();
+  await expect(page.getByText('Đã tự đối chiếu').first()).toBeVisible();
+  await page.reload();
+  await expect(page.getByLabel('Bản sửa của bạn')).toHaveValue('Em bổ sung các bước lập luận.');
+  await page.getByRole('button', { name: /Sang Bước 2/ }).click();
+  const second = page.locator('li').filter({ has: page.getByRole('button', { name: /Bước 2: Giải thích khi chèn/ }) });
+  await second.getByLabel('Lập luận của bạn').fill('Em giải thích chiều dịch khi chèn.');
+  await second.getByRole('button', { name: 'Xem lời giải tham khảo' }).click();
+  for (const check of await second.locator('[data-written-review] input[type=checkbox]').all()) await check.check();
+  await second.getByLabel('Bản sửa của bạn').fill('Em làm rõ dữ liệu bị ghi đè.');
+  await second.getByRole('button', { name: 'Hoàn tất tự đối chiếu' }).click();
+  await expect(page.getByRole('heading', { name: 'Dàn ý tham khảo' })).toBeVisible();
+  const attempts = await page.evaluate(() => JSON.parse(localStorage.getItem('hus-learning-hub:progress:v1') ?? '{"attempts":[]}').attempts);
+  expect(attempts.some((attempt: { exerciseId: string; correct: boolean }) => attempt.exerciseId === 'mat3514-array-list-written' && attempt.correct)).toBe(false);
+  await page.getByRole('button', { name: /Bước 1: Giải thích khi xóa/ }).click();
+  const first = page.locator('li').filter({ has: page.getByRole('button', { name: /Bước 1: Giải thích khi xóa/ }) });
+  await expect(first.getByLabel('Lập luận của bạn')).toHaveValue('Em trình bày cách suy luận của mình.');
+  await first.getByLabel('Lập luận của bạn').fill('Một cách trình bày mới');
+  await expect(page.getByRole('heading', { name: 'Dàn ý tham khảo' })).toHaveCount(0);
+  await expect(first.getByRole('button', { name: 'Xem lời giải tham khảo' })).toBeEnabled();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test('disables reveal animation for reduced motion', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('./#/courses/mat3514/lessons/mat3514-array-list/practice/mat3514-array-list-written');
+  await page.getByLabel('Lập luận của bạn').fill('Bản nháp của em');
+  await page.getByRole('button', { name: 'Xem lời giải tham khảo' }).click();
+  await expect(page.locator('.written-practice-reveal').first()).toHaveCSS('animation-name', 'none');
+});

@@ -1,0 +1,88 @@
+{
+  "repository": "https://github.com/HanitaV/VLDC-HUS",
+  "revision": "5d6301638664dc18b4913b944c0224761d705a2e",
+  "inspectedOn": "2026-11-19",
+  "truncated": false,
+  "files": [
+    {
+      "path": "docs/LEARNING-DESIGN.md",
+      "sha": "f069c5eab993ec4f7497960765c8abc3ce004029",
+      "bytes": 7351
+    },
+    {
+      "path": "docs/LEARNING-VALIDATION.md",
+      "sha": "79cf01d474b3c26a5b5d8aa80cb39112ab7a2788",
+      "bytes": 8630
+    },
+    {
+      "path": "docs/RESEARCH.md",
+      "sha": "8953e4476197ed15898ce9e37caa7dd991131b9c",
+      "bytes": 12640
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/B-i t-p ch--ng 3- chia nh- c-u h-i.docx.pdf",
+      "sha": "c44bd528dac68e0c7fb65ddb55839dc27815ca61",
+      "bytes": 128929
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/B-i t-p m-n C- Nhi-t.docx.pdf",
+      "sha": "0a2cb0b31702e37d55be38c73ad4c72b254a2c30",
+      "bytes": 1120165
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Bai tap Co - Nhiet (Bat buoc).pdf",
+      "sha": "9483b2ec2a85776f7ac85acf09ddebb74ea9a82f",
+      "bytes": 215426
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 1-M- --u V-t l- h-c(1).pdf",
+      "sha": "7674646d6514285259ec8759d7a1cd452461e6e3",
+      "bytes": 987324
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 10-Thuy-t --ng h-c ch-t kh- (2).pdf",
+      "sha": "00bd05791d0664bb36b1d5bc316ca96b6af0ac37",
+      "bytes": 1074585
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 11- Entropi v- nguy-n l- th- hai c-a nhi-t --ng l-c h-c.pdf",
+      "sha": "c89f6380f8c3b854e37bf2ddb062fad278c7d6b0",
+      "bytes": 885917
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 2---ng h-c ch-t -i-m.pdf",
+      "sha": "9715a7317bef600cb88eaf4af5773c4c22035891",
+      "bytes": 1134614
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 3---ng l-c h-c ch-t -i-m.pdf",
+      "sha": "cc25ca97e8eb6d138352dfc14dc147275db4ee5a",
+      "bytes": 1111963
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 4-C-ng v- N-ng l--ng.pdf",
+      "sha": "8db0d87f0a2288f387b4c7936dbb140e8752c87b",
+      "bytes": 1110447
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 5-Chuy-n --ng c-a v-t r-n.pdf",
+      "sha": "0fa677350e60e61646bb18cf9dd902ac3415228d",
+      "bytes": 671326
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 8- Nhi-t --.pdf",
+      "sha": "f7ef610d6a6c6f04c6f29ed5095c5465cb73a86c",
+      "bytes": 470018
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/Ch--ng 9- Nhi-t v- nguy-n l- th- nh-t c-a nhi-t --ng l-c.pdf",
+      "sha": "6cdc42d7ce5c89108a029f631f0bf170061d5e50",
+      "bytes": 827347
+    },
+    {
+      "path": "docs/pdf_slides_from_teacher/De cuong Co-Nhiet.pdf",
+      "sha": "e0da8a94a0fa2612a80f106a6bb5ce630bc05ac3",
+      "bytes": 65155
+    }
+  ]
+}
